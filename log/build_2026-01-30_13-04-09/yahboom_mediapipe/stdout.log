@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/PKG-INFO
+writing dependency_links to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/dependency_links.txt
+writing entry points to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/entry_points.txt
+writing requirements to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/requires.txt
+writing top-level names to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/top_level.txt
+reading manifest file '../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/SOURCES.txt'
+writing manifest file '../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe-0.0.0-py3.10.egg-info
+running install_scripts
+Installing 01_HandDetector script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+Installing 02_PoseDetector script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+Installing 03_Holistic script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+Installing 04_FaceMesh script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+Installing 05_FaceEyeDetection script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+Installing test_msg script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+writing list of installed files to '/home/dwduong74/yahboom_src/build/yahboom_mediapipe/install.log'

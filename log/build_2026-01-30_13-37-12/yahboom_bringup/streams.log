@@ -1,0 +1,20 @@
+[5.655s] Invoking command in '/home/dwduong74/yahboom_src/src/yahboom_bringup': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_bringup build --build-base /home/dwduong74/yahboom_src/build/yahboom_bringup/build install --record /home/dwduong74/yahboom_src/build/yahboom_bringup/install.log --single-version-externally-managed install_data
+[6.692s] running egg_info
+[6.694s] writing ../../build/yahboom_bringup/yahboom_bringup.egg-info/PKG-INFO
+[6.695s] writing dependency_links to ../../build/yahboom_bringup/yahboom_bringup.egg-info/dependency_links.txt
+[6.695s] writing entry points to ../../build/yahboom_bringup/yahboom_bringup.egg-info/entry_points.txt
+[6.697s] writing requirements to ../../build/yahboom_bringup/yahboom_bringup.egg-info/requires.txt
+[6.697s] writing top-level names to ../../build/yahboom_bringup/yahboom_bringup.egg-info/top_level.txt
+[6.702s] reading manifest file '../../build/yahboom_bringup/yahboom_bringup.egg-info/SOURCES.txt'
+[6.702s] writing manifest file '../../build/yahboom_bringup/yahboom_bringup.egg-info/SOURCES.txt'
+[6.706s] running build
+[6.706s] running build_py
+[6.707s] running install
+[6.707s] running install_lib
+[6.707s] running install_data
+[6.707s] running install_egg_info
+[6.711s] removing '/home/dwduong74/yahboom_src/install/yahboom_bringup/lib/python3.10/site-packages/yahboom_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[6.711s] Copying ../../build/yahboom_bringup/yahboom_bringup.egg-info to /home/dwduong74/yahboom_src/install/yahboom_bringup/lib/python3.10/site-packages/yahboom_bringup-0.0.0-py3.10.egg-info
+[6.712s] running install_scripts
+[6.758s] writing list of installed files to '/home/dwduong74/yahboom_src/build/yahboom_bringup/install.log'
+[6.823s] Invoked command in '/home/dwduong74/yahboom_src/src/yahboom_bringup' returned '0': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_bringup build --build-base /home/dwduong74/yahboom_src/build/yahboom_bringup/build install --record /home/dwduong74/yahboom_src/build/yahboom_bringup/install.log --single-version-externally-managed install_data

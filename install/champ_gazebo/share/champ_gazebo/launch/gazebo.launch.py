@@ -154,7 +154,6 @@ def generate_launch_description():
         remappings=[('/velodyne_points/points', '/velodyne_points')],
     )
 
-
     # Load joint state broadcaster (with delay to wait for controller_manager)
     load_joint_state_controller = TimerAction(
         period=5.0,

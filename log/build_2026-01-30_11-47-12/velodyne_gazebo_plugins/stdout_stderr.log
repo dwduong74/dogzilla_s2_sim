@@ -1,0 +1,33 @@
+[100%] Built target VelodyneLidarSystem
+-- Install configuration: ""
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/lib/libVelodyneLidarSystem.so
+-- Set runtime path of "/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/lib/libVelodyneLidarSystem.so" to ""
+-- Up-to-date: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/include
+-- Up-to-date: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.h
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/VelodyneLidarSystem.hpp
+-- Up-to-date: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/config
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/config/velodyne_controller_ros2.yaml
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/config/velodyne_controller.yaml
+-- Up-to-date: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/launch
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/launch/velodyne_controller.launch
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.sh
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.dsv
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.sh
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.dsv
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.bash
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.sh
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.zsh
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.dsv
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/ament_index/resource_index/packages/velodyne_gazebo_plugins
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
+-- Installing: /home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.xml

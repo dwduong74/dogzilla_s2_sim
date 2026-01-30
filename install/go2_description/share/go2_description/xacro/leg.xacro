@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:property name="scale_model" value="2.0"/>
 
     <!-- <xacro:include filename="$(find go2_description)/xacro/transmission.xacro"/> -->
 
@@ -47,7 +47,7 @@
                     <origin rpy="${PI} ${PI} 0" xyz="0 0 0"/>
                 </xacro:if>
                 <geometry>
-                    <mesh filename="file://$(find go2_description)/meshes/${name}_hip_link.STL" scale="1 1 1"/>
+                    <mesh filename="file://$(find go2_description)/meshes/${name}_hip_link.STL" scale="${scale_model} ${scale_model} ${scale_model}"/>
                 </geometry>
                 <!-- <material name="orange"/> -->
             </visual>
@@ -81,7 +81,7 @@
             <visual>
                 <origin rpy="0 0 0" xyz="0 0 0"/>
                 <geometry>
-                    <mesh filename="file://$(find go2_description)/meshes/${name}_upper_leg_link.STL" scale="1 1 1"/>
+                    <mesh filename="file://$(find go2_description)/meshes/${name}_upper_leg_link.STL" scale="${scale_model} ${scale_model} ${scale_model}"/>
                 </geometry>
                 <!-- <material name="orange"/> -->
             </visual>
@@ -116,12 +116,12 @@
             <visual>
                 <origin rpy="0 0 0" xyz="0 0 0"/>
                 <geometry>
-                    <mesh filename="file://$(find go2_description)/meshes/${name}_lower_leg_link.STL" scale="1 1 1"/>
+                    <mesh filename="file://$(find go2_description)/meshes/${name}_lower_leg_link.STL" scale="${scale_model} ${scale_model} ${scale_model}"/>
                 </geometry>
                 <!-- <material name="orange"/> -->
             </visual>
             <collision>
-                <origin rpy="0 ${PI/2.0} 0" xyz="-0.02 ${hip_offset*mirror} -0.03"/>
+                <origin rpy="0 ${PI/2.0} 0" xyz="-0.025 ${hip_offset*mirror} -0.03"/>
                 <geometry>
                     <box size="${calf_length} ${calf_width} ${calf_height}"/>
                 </geometry>      
@@ -145,22 +145,22 @@
 
         <link name="${name}_foot_link">
             <visual>
-                <origin rpy="0 0 0" xyz="-0.02 ${hip_offset*mirror} -0.03"/>
+                <origin rpy="0 0 0" xyz="-0.05 ${hip_offset*mirror} -0.028"/>
                 <geometry>
                     <sphere radius="${foot_radius-0.01}"/>
                 </geometry>
                 <!-- <material name="orange"/> -->
             </visual>
             <collision>
-                <origin rpy="0 0 0" xyz="-0.02 ${hip_offset*mirror} -0.03"/>
+                <origin rpy="0 0 0" xyz="-0.05 ${hip_offset*mirror} -0.028"/>
                 <geometry>
-                    <sphere radius="${foot_radius}"/>
+                    <sphere radius="${foot_radius+0.05}"/>
                 </geometry>
                 <surface>
                     <friction>
                         <ode>
-                            <mu>1.2</mu>
-                            <mu2>1.2</mu2>
+                            <mu>000.2</mu>
+                            <mu2>000.2</mu2>
                         </ode>
                     </friction>
                     <contact>

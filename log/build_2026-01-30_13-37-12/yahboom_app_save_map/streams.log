@@ -1,0 +1,22 @@
+[5.796s] Invoking command in '/home/dwduong74/yahboom_src/src/yahboom_app_save_map': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_app_save_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build install --record /home/dwduong74/yahboom_src/build/yahboom_app_save_map/install.log --single-version-externally-managed install_data
+[7.089s] running egg_info
+[7.094s] writing ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/PKG-INFO
+[7.094s] writing dependency_links to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/dependency_links.txt
+[7.095s] writing entry points to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/entry_points.txt
+[7.095s] writing requirements to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/requires.txt
+[7.095s] writing top-level names to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/top_level.txt
+[7.109s] reading manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[7.114s] writing manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[7.114s] running build
+[7.114s] running build_py
+[7.114s] running install
+[7.114s] running install_lib
+[7.126s] running install_data
+[7.126s] running install_egg_info
+[7.127s] removing '/home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map-0.0.0-py3.10.egg-info' (and everything under it)
+[7.130s] Copying ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info to /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map-0.0.0-py3.10.egg-info
+[7.135s] running install_scripts
+[7.206s] Installing client script to /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[7.207s] Installing server script to /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[7.208s] writing list of installed files to '/home/dwduong74/yahboom_src/build/yahboom_app_save_map/install.log'
+[7.942s] Invoked command in '/home/dwduong74/yahboom_src/src/yahboom_app_save_map' returned '0': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_app_save_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build install --record /home/dwduong74/yahboom_src/build/yahboom_app_save_map/install.log --single-version-externally-managed install_data

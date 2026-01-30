@@ -1,0 +1,224 @@
+[0.059s] Invoking command in '/home/dwduong74/yahboom_src/build/yahboom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/yahboom_msgs -- -j8 -l8
+[0.251s] [ 11%] Built target yahboom_msgs__rosidl_generator_c
+[0.255s] [ 12%] Built target yahboom_msgs__cpp
+[0.297s] [ 12%] Built target ament_cmake_python_copy_yahboom_msgs
+[0.348s] [ 23%] Built target yahboom_msgs__rosidl_typesupport_fastrtps_c
+[0.359s] [ 34%] Built target yahboom_msgs__rosidl_typesupport_c
+[0.359s] [ 46%] Built target yahboom_msgs__rosidl_typesupport_cpp
+[0.364s] [ 57%] Built target yahboom_msgs__rosidl_typesupport_fastrtps_cpp
+[0.374s] [ 68%] Built target yahboom_msgs__rosidl_typesupport_introspection_c
+[0.381s] [ 79%] Built target yahboom_msgs__rosidl_typesupport_introspection_cpp
+[0.462s] [ 79%] Built target yahboom_msgs
+[0.548s] [ 80%] Built target yahboom_msgs__py
+[0.630s] [ 90%] Built target yahboom_msgs__rosidl_generator_py
+[0.727s] [ 95%] Built target yahboom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.728s] [ 96%] Built target yahboom_msgs__rosidl_typesupport_introspection_c__pyext
+[0.732s] [100%] Built target yahboom_msgs__rosidl_typesupport_c__pyext
+[1.717s] running egg_info
+[1.720s] writing yahboom_msgs.egg-info/PKG-INFO
+[1.721s] writing dependency_links to yahboom_msgs.egg-info/dependency_links.txt
+[1.723s] writing top-level names to yahboom_msgs.egg-info/top_level.txt
+[1.728s] reading manifest file 'yahboom_msgs.egg-info/SOURCES.txt'
+[1.729s] writing manifest file 'yahboom_msgs.egg-info/SOURCES.txt'
+[1.789s] [100%] Built target ament_cmake_python_build_yahboom_msgs_egg
+[2.162s] Invoked command in '/home/dwduong74/yahboom_src/build/yahboom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/yahboom_msgs -- -j8 -l8
+[2.164s] Invoking command in '/home/dwduong74/yahboom_src/build/yahboom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/yahboom_msgs
+[2.188s] -- Install configuration: ""
+[2.188s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/ament_index/resource_index/rosidl_interfaces/yahboom_msgs
+[2.188s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs
+[2.188s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg
+[2.194s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.194s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/target_array.h
+[2.194s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/image_msg.h
+[2.195s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/target.h
+[2.195s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/position.h
+[2.195s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/point_array.h
+[2.195s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail
+[2.195s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__functions.h
+[2.198s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__functions.c
+[2.198s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__functions.h
+[2.198s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__functions.c
+[2.198s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__type_support.h
+[2.198s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__functions.h
+[2.198s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__type_support.h
+[2.198s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__functions.c
+[2.199s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__type_support.h
+[2.199s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__functions.c
+[2.199s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__struct.h
+[2.199s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__functions.h
+[2.199s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__struct.h
+[2.200s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__struct.h
+[2.200s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__struct.h
+[2.200s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__functions.c
+[2.200s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__struct.h
+[2.200s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__functions.h
+[2.200s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__type_support.h
+[2.200s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__type_support.h
+[2.200s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/environment/library_path.sh
+[2.200s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/environment/library_path.dsv
+[2.201s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/lib/libyahboom_msgs__rosidl_generator_c.so
+[2.201s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs
+[2.201s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg
+[2.205s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.205s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail
+[2.205s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[2.205s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[2.205s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_c.h
+[2.205s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[2.206s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_c.h
+[2.206s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/lib/libyahboom_msgs__rosidl_typesupport_fastrtps_c.so
+[2.206s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs
+[2.206s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg
+[2.207s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.207s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail
+[2.207s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_c.h
+[2.207s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__type_support.c
+[2.207s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__type_support.c
+[2.207s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__rosidl_typesupport_introspection_c.h
+[2.208s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__rosidl_typesupport_introspection_c.h
+[2.208s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__type_support.c
+[2.209s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[2.209s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__type_support.c
+[2.209s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__rosidl_typesupport_introspection_c.h
+[2.209s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__type_support.c
+[2.209s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/lib/libyahboom_msgs__rosidl_typesupport_introspection_c.so
+[2.210s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/lib/libyahboom_msgs__rosidl_typesupport_c.so
+[2.210s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs
+[2.210s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg
+[2.210s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/target.hpp
+[2.210s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/image_msg.hpp
+[2.210s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/point_array.hpp
+[2.210s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/target_array.hpp
+[2.211s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.211s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail
+[2.211s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__struct.hpp
+[2.211s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__type_support.hpp
+[2.211s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__builder.hpp
+[2.211s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__struct.hpp
+[2.212s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__struct.hpp
+[2.212s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__traits.hpp
+[2.212s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__builder.hpp
+[2.212s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__type_support.hpp
+[2.212s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__type_support.hpp
+[2.212s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__builder.hpp
+[2.212s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__type_support.hpp
+[2.212s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__traits.hpp
+[2.213s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__traits.hpp
+[2.213s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__type_support.hpp
+[2.213s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__builder.hpp
+[2.213s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__struct.hpp
+[2.213s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__traits.hpp
+[2.213s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__struct.hpp
+[2.213s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__builder.hpp
+[2.214s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__traits.hpp
+[2.214s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/position.hpp
+[2.220s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs
+[2.221s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg
+[2.221s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.221s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail
+[2.221s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[2.221s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.221s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[2.221s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/dds_fastrtps
+[2.222s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.222s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.222s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/lib/libyahboom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.222s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs
+[2.222s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg
+[2.222s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail
+[2.222s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[2.223s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__type_support.cpp
+[2.223s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[2.223s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__type_support.cpp
+[2.223s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__rosidl_typesupport_introspection_cpp.hpp
+[2.223s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/image_msg__rosidl_typesupport_introspection_cpp.hpp
+[2.223s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/position__type_support.cpp
+[2.223s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target_array__type_support.cpp
+[2.223s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[2.224s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/include/yahboom_msgs/yahboom_msgs/msg/detail/target__type_support.cpp
+[2.229s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/lib/libyahboom_msgs__rosidl_typesupport_introspection_cpp.so
+[2.229s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/lib/libyahboom_msgs__rosidl_typesupport_cpp.so
+[2.229s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/environment/pythonpath.sh
+[2.229s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/environment/pythonpath.dsv
+[2.229s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs-0.0.0-py3.10.egg-info
+[2.230s] -- Installing: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.230s] -- Installing: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.230s] -- Installing: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.230s] -- Installing: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.230s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs
+[2.230s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/_yahboom_msgs_s.ep.rosidl_typesupport_c.c
+[2.230s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/libyahboom_msgs__rosidl_generator_py.so
+[2.230s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/_yahboom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.231s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/_yahboom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.231s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/yahboom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.231s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg
+[2.231s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/_point_array_s.c
+[2.231s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/_position.py
+[2.231s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/_target_s.c
+[2.231s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/_target_array_s.c
+[2.231s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/_target.py
+[2.231s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/_point_array.py
+[2.232s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/_image_msg.py
+[2.232s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/_position_s.c
+[2.232s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/__init__.py
+[2.232s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/_image_msg_s.c
+[2.232s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg/_target_array.py
+[2.232s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/__init__.py
+[2.232s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/yahboom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.233s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/yahboom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.324s] Listing '/home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs'...
+[2.324s] Listing '/home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/msg'...
+[2.353s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/yahboom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.354s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/yahboom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.355s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/local/lib/python3.10/dist-packages/yahboom_msgs/yahboom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.355s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/lib/libyahboom_msgs__rosidl_generator_py.so
+[2.356s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/msg/ImageMsg.idl
+[2.356s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/msg/PointArray.idl
+[2.357s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/msg/Position.idl
+[2.357s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/msg/Target.idl
+[2.357s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/msg/TargetArray.idl
+[2.357s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/msg/ImageMsg.msg
+[2.357s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/msg/PointArray.msg
+[2.357s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/msg/Position.msg
+[2.357s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/msg/Target.msg
+[2.358s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/msg/TargetArray.msg
+[2.358s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/ament_index/resource_index/package_run_dependencies/yahboom_msgs
+[2.361s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/ament_index/resource_index/parent_prefix_path/yahboom_msgs
+[2.362s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/environment/ament_prefix_path.sh
+[2.368s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/environment/ament_prefix_path.dsv
+[2.369s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/environment/path.sh
+[2.370s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/environment/path.dsv
+[2.371s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/local_setup.bash
+[2.371s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/local_setup.sh
+[2.372s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/local_setup.zsh
+[2.372s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/local_setup.dsv
+[2.372s] -- Installing: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/package.dsv
+[2.407s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/ament_index/resource_index/packages/yahboom_msgs
+[2.407s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/export_yahboom_msgs__rosidl_generator_cExport.cmake
+[2.407s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/export_yahboom_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.411s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/export_yahboom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.411s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/export_yahboom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.411s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/yahboom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.430s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/yahboom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.438s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/yahboom_msgs__rosidl_typesupport_cExport.cmake
+[2.439s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/yahboom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.439s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/export_yahboom_msgs__rosidl_generator_cppExport.cmake
+[2.440s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/export_yahboom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.442s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/export_yahboom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.442s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/yahboom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.442s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/yahboom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.442s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/yahboom_msgs__rosidl_typesupport_cppExport.cmake
+[2.442s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/yahboom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.443s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/export_yahboom_msgs__rosidl_generator_pyExport.cmake
+[2.443s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/export_yahboom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.443s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/rosidl_cmake-extras.cmake
+[2.443s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.443s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.443s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.443s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.443s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.443s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.444s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/yahboom_msgsConfig.cmake
+[2.444s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/cmake/yahboom_msgsConfig-version.cmake
+[2.444s] -- Up-to-date: /home/dwduong74/yahboom_src/install/yahboom_msgs/share/yahboom_msgs/package.xml
+[2.536s] Invoked command in '/home/dwduong74/yahboom_src/build/yahboom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/yahboom_msgs

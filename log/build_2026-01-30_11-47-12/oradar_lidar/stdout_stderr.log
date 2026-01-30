@@ -1,0 +1,56 @@
+[ 60%] Built target oradar_sdk
+[ 70%] Built target blocking_c_api_test
+[ 90%] Built target non-blocking_test
+[ 90%] Built target blocking_test
+[100%] Built target oradar_scan
+-- Install configuration: "RELEASE"
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/lib/oradar_lidar/oradar_scan
+-- Set runtime path of "/home/dwduong74/yahboom_src/install/oradar_lidar/lib/oradar_lidar/oradar_scan" to ""
+-- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan_view.launch
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan_view.launch.py
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan.launch.py
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan.launch
+-- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//rviz2
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//rviz2/oradar_scan.rviz
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/ament_index/resource_index/package_run_dependencies/oradar_lidar
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/ament_index/resource_index/parent_prefix_path/oradar_lidar
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/ament_prefix_path.sh
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/ament_prefix_path.dsv
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/path.sh
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/path.dsv
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.bash
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.sh
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.zsh
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.dsv
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/package.dsv
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/ament_index/resource_index/packages/oradar_lidar
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/cmake/oradar_lidarConfig.cmake
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/cmake/oradar_lidarConfig-version.cmake
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/package.xml
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/datatype.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/locker.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/thread.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/timer.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/typedef.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/utils.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/v8stdint.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/common/ChannelDevice.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/math/angles.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/ActiveSocket.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/PassiveSocket.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/SimpleSocket.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/StatTimer.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/common.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/serial.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/impl/unix/lock.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/impl/unix/unix.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/impl/unix/unix_serial.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/ord_lidar_c_api_driver.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/ord_lidar_driver.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/ordlidar_protocol.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/filters/FullScanFilter.h
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/lib/liboradar_sdk.a
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/bin/blocking_test
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/bin/non-blocking_test
+-- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/bin/blocking_c_api_test
