@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from image_color_lab/msg/Lab.msg
+// generated code does not contain a copyright notice
+
+
+module image_color_lab {
+  module msg {
+    struct Lab {
+      int64 l_min;
+
+      int64 a_min;
+
+      int64 b_min;
+
+      int64 l_max;
+
+      int64 a_max;
+
+      int64 b_max;
+    };
+  };
+};

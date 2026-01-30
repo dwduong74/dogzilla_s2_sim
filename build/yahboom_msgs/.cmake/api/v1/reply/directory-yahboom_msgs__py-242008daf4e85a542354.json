@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yahboom_msgs__py",
+		"source" : "/home/dwduong74/yahboom_src/build/yahboom_msgs/yahboom_msgs__py"
+	}
+}

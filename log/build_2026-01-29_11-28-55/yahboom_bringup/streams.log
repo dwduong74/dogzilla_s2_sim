@@ -1,0 +1,38 @@
+[7.845s] Invoking command in '/home/dwduong74/yahboom_src/src/yahboom_bringup': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_bringup build --build-base /home/dwduong74/yahboom_src/build/yahboom_bringup/build install --record /home/dwduong74/yahboom_src/build/yahboom_bringup/install.log --single-version-externally-managed install_data
+[8.853s] running egg_info
+[8.854s] creating ../../build/yahboom_bringup/yahboom_bringup.egg-info
+[8.859s] writing ../../build/yahboom_bringup/yahboom_bringup.egg-info/PKG-INFO
+[8.859s] writing dependency_links to ../../build/yahboom_bringup/yahboom_bringup.egg-info/dependency_links.txt
+[8.859s] writing entry points to ../../build/yahboom_bringup/yahboom_bringup.egg-info/entry_points.txt
+[8.860s] writing requirements to ../../build/yahboom_bringup/yahboom_bringup.egg-info/requires.txt
+[8.860s] writing top-level names to ../../build/yahboom_bringup/yahboom_bringup.egg-info/top_level.txt
+[8.860s] writing manifest file '../../build/yahboom_bringup/yahboom_bringup.egg-info/SOURCES.txt'
+[8.862s] reading manifest file '../../build/yahboom_bringup/yahboom_bringup.egg-info/SOURCES.txt'
+[8.862s] writing manifest file '../../build/yahboom_bringup/yahboom_bringup.egg-info/SOURCES.txt'
+[8.862s] running build
+[8.862s] running build_py
+[8.863s] creating /home/dwduong74/yahboom_src/build/yahboom_bringup/build
+[8.863s] creating /home/dwduong74/yahboom_src/build/yahboom_bringup/build/lib
+[8.863s] creating /home/dwduong74/yahboom_src/build/yahboom_bringup/build/lib/yahboom_bringup
+[8.863s] copying yahboom_bringup/__init__.py -> /home/dwduong74/yahboom_src/build/yahboom_bringup/build/lib/yahboom_bringup
+[8.863s] running install
+[8.863s] running install_lib
+[8.866s] creating /home/dwduong74/yahboom_src/install/yahboom_bringup/lib/python3.10/site-packages/yahboom_bringup
+[8.866s] copying /home/dwduong74/yahboom_src/build/yahboom_bringup/build/lib/yahboom_bringup/__init__.py -> /home/dwduong74/yahboom_src/install/yahboom_bringup/lib/python3.10/site-packages/yahboom_bringup
+[8.866s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_bringup/lib/python3.10/site-packages/yahboom_bringup/__init__.py to __init__.cpython-310.pyc
+[8.867s] running install_data
+[8.867s] creating /home/dwduong74/yahboom_src/install/yahboom_bringup/share/ament_index
+[8.868s] creating /home/dwduong74/yahboom_src/install/yahboom_bringup/share/ament_index/resource_index
+[8.868s] creating /home/dwduong74/yahboom_src/install/yahboom_bringup/share/ament_index/resource_index/packages
+[8.868s] copying resource/yahboom_bringup -> /home/dwduong74/yahboom_src/install/yahboom_bringup/share/ament_index/resource_index/packages
+[8.868s] copying package.xml -> /home/dwduong74/yahboom_src/install/yahboom_bringup/share/yahboom_bringup
+[8.869s] copying launch/Navigation_bringup.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_bringup/share/yahboom_bringup
+[8.869s] copying launch/Mapping_bring.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_bringup/share/yahboom_bringup
+[8.869s] copying launch/Catographer_localization.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_bringup/share/yahboom_bringup
+[8.869s] copying launch/Catographer.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_bringup/share/yahboom_bringup
+[8.869s] copying launch/DogFindColor.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_bringup/share/yahboom_bringup
+[8.869s] running install_egg_info
+[8.880s] Copying ../../build/yahboom_bringup/yahboom_bringup.egg-info to /home/dwduong74/yahboom_src/install/yahboom_bringup/lib/python3.10/site-packages/yahboom_bringup-0.0.0-py3.10.egg-info
+[8.880s] running install_scripts
+[8.921s] writing list of installed files to '/home/dwduong74/yahboom_src/build/yahboom_bringup/install.log'
+[8.987s] Invoked command in '/home/dwduong74/yahboom_src/src/yahboom_bringup' returned '0': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_bringup build --build-base /home/dwduong74/yahboom_src/build/yahboom_bringup/build install --record /home/dwduong74/yahboom_src/build/yahboom_bringup/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+source;share/dogzilla_config/environment/ament_prefix_path.sh
+source;share/dogzilla_config/environment/path.sh

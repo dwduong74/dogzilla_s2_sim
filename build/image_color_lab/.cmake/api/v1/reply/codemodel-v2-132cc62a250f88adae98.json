@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5f8bf490efc73e08fc32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "image_color_lab__py",
+					"jsonFile" : "directory-image_color_lab__py-815064247c772f5e0263.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/dwduong74/yahboom_src/build/image_color_lab/image_color_lab__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "image_color_lab",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_image_color_lab_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_image_color_lab_egg-c3953501079059eb96ed.json",
+					"name" : "ament_cmake_python_build_image_color_lab_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_image_color_lab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_image_color_lab-46ee1940afd3ffffb7d5.json",
+					"name" : "ament_cmake_python_copy_image_color_lab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab-4fbaf37ddfd5afcfd631.json",
+					"name" : "image_color_lab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__cpp-495fbde146d5473de66f.json",
+					"name" : "image_color_lab__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "image_color_lab__py::@33e7f72b661ce029f697",
+					"jsonFile" : "target-image_color_lab__py-912c32c87a08fe5c7183.json",
+					"name" : "image_color_lab__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_generator_c-bc801fd7e340cc6e9f96.json",
+					"name" : "image_color_lab__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_generator_py-e384747f65d469a070de.json",
+					"name" : "image_color_lab__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_typesupport_c-083a473f7701787c396f.json",
+					"name" : "image_color_lab__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_typesupport_c__pyext-6601260242458302facb.json",
+					"name" : "image_color_lab__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_typesupport_cpp-2bd13ac02147359957b9.json",
+					"name" : "image_color_lab__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_typesupport_fastrtps_c-80f5783377837088d0dd.json",
+					"name" : "image_color_lab__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_typesupport_fastrtps_c__pyext-37b668c1b2a24d3a8d43.json",
+					"name" : "image_color_lab__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_typesupport_fastrtps_cpp-34dc28fb2e22039b64bd.json",
+					"name" : "image_color_lab__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_typesupport_introspection_c-04a32fd9a30f7acd2e6b.json",
+					"name" : "image_color_lab__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_typesupport_introspection_c__pyext-f463d6722c95709d06f0.json",
+					"name" : "image_color_lab__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab__rosidl_typesupport_introspection_cpp-7a8b34d38b7cef6f1eef.json",
+					"name" : "image_color_lab__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_color_lab_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_color_lab_uninstall-9f84e92d42ad85a5b893.json",
+					"name" : "image_color_lab_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1bdb5b88d9a48ae4a066.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dwduong74/yahboom_src/build/image_color_lab",
+		"source" : "/home/dwduong74/yahboom_src/src/image_color_lab"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

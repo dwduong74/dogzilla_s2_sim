@@ -1,0 +1,169 @@
+[0.014s] Invoking command in '/home/dwduong74/yahboom_src/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake /home/dwduong74/yahboom_src/src/oradar_lidar -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/oradar_lidar
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.285s] -- The CXX compiler identification is GNU 11.4.0
+[0.285s] -- Detecting C compiler ABI info
+[0.349s] -- Detecting C compiler ABI info - done
+[0.377s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.377s] -- Detecting C compile features
+[0.378s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.515s] -- Detecting CXX compiler ABI info - done
+[0.541s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.541s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.561s] [0m=============================================================[0m
+[0.561s] [0m-- ROS Not Found, Ros Support is turned Off![0m
+[0.561s] [0m=============================================================[0m
+[0.818s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.125s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.134s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.146s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.307s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.312s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.443s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.497s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.575s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.590s] -- Looking for pthread.h
+[1.688s] -- Looking for pthread.h - found
+[1.689s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.812s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.814s] -- Found Threads: TRUE  
+[1.930s] [0m=============================================================[0m
+[1.930s] [0m-- ROS2 Found. ROS2 Support is turned On![0m
+[1.930s] [0m=============================================================[0m
+[1.935s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.004s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:36 (cmake_policy):
+[2.004s]   The OLD behavior for policy CMP0053 will be removed from a future version
+[2.004s]   of CMake.
+[2.005s] 
+[2.005s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[2.005s]   policies are deprecated and that a policy should be set to OLD only under
+[2.005s]   specific short-term circumstances.  Projects should be ported to the NEW
+[2.005s]   behavior and not rely on setting a policy to OLD.
+[2.005s] 
+[2.005s] [0m
+[2.005s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:39 (cmake_policy):
+[2.005s]   The OLD behavior for policy CMP0037 will be removed from a future version
+[2.006s]   of CMake.
+[2.006s] 
+[2.006s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[2.006s]   policies are deprecated and that a policy should be set to OLD only under
+[2.006s]   specific short-term circumstances.  Projects should be ported to the NEW
+[2.006s]   behavior and not rely on setting a policy to OLD.
+[2.006s] 
+[2.007s] [0m
+[2.007s] [0mCMake Deprecation Warning at sdk/CMakeLists.txt:42 (cmake_policy):
+[2.007s]   The OLD behavior for policy CMP0043 will be removed from a future version
+[2.007s]   of CMake.
+[2.007s] 
+[2.007s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[2.007s]   policies are deprecated and that a policy should be set to OLD only under
+[2.007s]   specific short-term circumstances.  Projects should be ported to the NEW
+[2.007s]   behavior and not rely on setting a policy to OLD.
+[2.008s] 
+[2.008s] [0m
+[2.008s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[2.037s] -- Found PythonInterp: /usr/bin/python (found version "3.10.12") 
+[2.047s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[2.068s] [0mCMake Deprecation Warning at sdk/cmake/install_package.cmake:101 (cmake_policy):
+[2.069s]   The OLD behavior for policy CMP0026 will be removed from a future version
+[2.069s]   of CMake.
+[2.069s] 
+[2.069s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[2.069s]   policies are deprecated and that a policy should be set to OLD only under
+[2.069s]   specific short-term circumstances.  Projects should be ported to the NEW
+[2.069s]   behavior and not rely on setting a policy to OLD.
+[2.070s] Call Stack (most recent call first):
+[2.070s]   sdk/CMakeLists.txt:105 (install_package)
+[2.070s] 
+[2.070s] [0m
+[2.265s] -- Configuring done
+[2.342s] -- Generating done
+[2.357s] -- Build files have been written to: /home/dwduong74/yahboom_src/build/oradar_lidar
+[3.811s] Invoked command in '/home/dwduong74/yahboom_src/build/oradar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake /home/dwduong74/yahboom_src/src/oradar_lidar -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/oradar_lidar
+[3.812s] Invoking command in '/home/dwduong74/yahboom_src/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/oradar_lidar -- -j8 -l8
+[4.021s] [  5%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/base/timer.cpp.o[0m
+[4.027s] [ 15%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/serial/impl/unix/list_ports_linux.cpp.o[0m
+[4.028s] [ 10%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/network/ActiveSocket.cpp.o[0m
+[4.028s] [ 20%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/network/PassiveSocket.cpp.o[0m
+[4.028s] [ 25%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/network/SimpleSocket.cpp.o[0m
+[4.028s] [ 30%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/serial/serial.cpp.o[0m
+[4.037s] [ 35%] [32mBuilding C object sdk/CMakeFiles/oradar_sdk.dir/core/serial/impl/unix/lock.c.o[0m
+[4.051s] [ 40%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/core/serial/impl/unix/unix_serial.cpp.o[0m
+[4.860s] [ 45%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/src/ord_lidar_c_api_driver.cpp.o[0m
+[5.381s] [ 50%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/src/ord_lidar_driver.cpp.o[0m
+[5.815s] [ 55%] [32mBuilding CXX object sdk/CMakeFiles/oradar_sdk.dir/src/filters/FullScanFilter.cpp.o[0m
+[8.568s] [01m[K/home/dwduong74/yahboom_src/src/oradar_lidar/sdk/src/ord_lidar_driver.cpp:[m[K In member function ‘[01m[Kbool ordlidar::OrdlidarDriver::uart_data_find_init_info(unsigned char*, int)[m[K’:
+[8.568s] [01m[K/home/dwduong74/yahboom_src/src/oradar_lidar/sdk/src/ord_lidar_driver.cpp:203:9:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[8.568s]   203 |         [01;35m[K}[m[K
+[8.569s]       |         [01;35m[K^[m[K
+[10.183s] [ 60%] [32m[1mLinking CXX static library ../liboradar_sdk.a[0m
+[10.805s] [ 60%] Built target oradar_sdk
+[10.907s] [ 65%] [32mBuilding CXX object sdk/samples/CMakeFiles/blocking_test.dir/blocking_test.cpp.o[0m
+[10.935s] [ 70%] [32mBuilding CXX object CMakeFiles/oradar_scan.dir/src/oradar_scan_node.cpp.o[0m
+[10.938s] [ 75%] [32mBuilding C object sdk/samples/CMakeFiles/blocking_c_api_test.dir/blocking_c_api_test.c.o[0m
+[10.949s] [ 80%] [32mBuilding CXX object sdk/samples/CMakeFiles/non-blocking_test.dir/non-blocking_test.cpp.o[0m
+[11.254s] [ 85%] [32m[1mLinking CXX executable ../../blocking_c_api_test[0m
+[11.673s] [ 85%] Built target blocking_c_api_test
+[12.474s] [ 90%] [32m[1mLinking CXX executable ../../non-blocking_test[0m
+[12.475s] [ 95%] [32m[1mLinking CXX executable ../../blocking_test[0m
+[12.831s] [ 95%] Built target non-blocking_test
+[12.937s] [ 95%] Built target blocking_test
+[25.265s] [100%] [32m[1mLinking CXX executable oradar_scan[0m
+[25.469s] [100%] Built target oradar_scan
+[25.490s] Invoked command in '/home/dwduong74/yahboom_src/build/oradar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/oradar_lidar -- -j8 -l8
+[25.493s] Invoking command in '/home/dwduong74/yahboom_src/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/oradar_lidar
+[25.504s] -- Install configuration: "RELEASE"
+[25.504s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/lib/oradar_lidar/oradar_scan
+[25.506s] -- Set runtime path of "/home/dwduong74/yahboom_src/install/oradar_lidar/lib/oradar_lidar/oradar_scan" to ""
+[25.506s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch
+[25.506s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan_view.launch
+[25.506s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan_view.launch.py
+[25.506s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan.launch.py
+[25.506s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan.launch
+[25.507s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//rviz2
+[25.507s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//rviz2/oradar_scan.rviz
+[25.507s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/ament_index/resource_index/package_run_dependencies/oradar_lidar
+[25.508s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/ament_index/resource_index/parent_prefix_path/oradar_lidar
+[25.508s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/ament_prefix_path.sh
+[25.508s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/ament_prefix_path.dsv
+[25.509s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/path.sh
+[25.509s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/path.dsv
+[25.509s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.bash
+[25.510s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.sh
+[25.510s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.zsh
+[25.510s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.dsv
+[25.510s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/package.dsv
+[25.511s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/ament_index/resource_index/packages/oradar_lidar
+[25.511s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/cmake/oradar_lidarConfig.cmake
+[25.511s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/cmake/oradar_lidarConfig-version.cmake
+[25.512s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/package.xml
+[25.513s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/datatype.h
+[25.513s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/locker.h
+[25.514s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/thread.h
+[25.514s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/timer.h
+[25.514s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/typedef.h
+[25.514s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/utils.h
+[25.514s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/v8stdint.h
+[25.515s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/common/ChannelDevice.h
+[25.515s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/math/angles.h
+[25.515s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/ActiveSocket.h
+[25.516s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/PassiveSocket.h
+[25.516s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/SimpleSocket.h
+[25.517s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/StatTimer.h
+[25.517s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/common.h
+[25.518s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/serial.h
+[25.518s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/impl/unix/lock.h
+[25.518s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/impl/unix/unix.h
+[25.518s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/impl/unix/unix_serial.h
+[25.519s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/ord_lidar_c_api_driver.h
+[25.519s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/ord_lidar_driver.h
+[25.519s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/ordlidar_protocol.h
+[25.519s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/filters/FullScanFilter.h
+[25.519s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/lib/liboradar_sdk.a
+[25.523s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/bin/blocking_test
+[25.523s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/bin/non-blocking_test
+[25.523s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/bin/blocking_c_api_test
+[25.527s] Invoked command in '/home/dwduong74/yahboom_src/build/oradar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/oradar_lidar

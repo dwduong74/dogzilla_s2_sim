@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from image_color_lab/msg/StringStamped.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module image_color_lab {
+  module msg {
+    struct StringStamped {
+      std_msgs::msg::Header header;
+
+      string data;
+    };
+  };
+};

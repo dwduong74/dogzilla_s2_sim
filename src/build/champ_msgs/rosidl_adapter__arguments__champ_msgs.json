@@ -1,0 +1,14 @@
+{
+  "package_name": "champ_msgs",
+  "non_idl_tuples": [
+    "/root/yahboomcar_ws/src/champ_msgs:msg/Velocities.msg",
+    "/root/yahboomcar_ws/src/champ_msgs:msg/PID.msg",
+    "/root/yahboomcar_ws/src/champ_msgs:msg/Imu.msg",
+    "/root/yahboomcar_ws/src/champ_msgs:msg/Point.msg",
+    "/root/yahboomcar_ws/src/champ_msgs:msg/PointArray.msg",
+    "/root/yahboomcar_ws/src/champ_msgs:msg/Joints.msg",
+    "/root/yahboomcar_ws/src/champ_msgs:msg/Contacts.msg",
+    "/root/yahboomcar_ws/src/champ_msgs:msg/ContactsStamped.msg",
+    "/root/yahboomcar_ws/src/champ_msgs:msg/Pose.msg"
+  ]
+}

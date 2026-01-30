@@ -1,0 +1,4 @@
+source;share/yahboom_qrcode/local_setup.bash
+source;share/yahboom_qrcode/local_setup.dsv
+source;share/yahboom_qrcode/local_setup.sh
+source;share/yahboom_qrcode/local_setup.zsh

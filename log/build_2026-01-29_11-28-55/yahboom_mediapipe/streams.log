@@ -1,0 +1,82 @@
+[3.177s] Invoking command in '/home/dwduong74/yahboom_src/src/yahboom_mediapipe': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_mediapipe/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_mediapipe build --build-base /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build install --record /home/dwduong74/yahboom_src/build/yahboom_mediapipe/install.log --single-version-externally-managed install_data
+[4.272s] running egg_info
+[4.273s] creating ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info
+[4.273s] writing ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/PKG-INFO
+[4.274s] writing dependency_links to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/dependency_links.txt
+[4.274s] writing entry points to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/entry_points.txt
+[4.274s] writing requirements to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/requires.txt
+[4.274s] writing top-level names to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/top_level.txt
+[4.275s] writing manifest file '../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/SOURCES.txt'
+[4.281s] reading manifest file '../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/SOURCES.txt'
+[4.281s] writing manifest file '../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/SOURCES.txt'
+[4.281s] running build
+[4.281s] running build_py
+[4.282s] creating /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build
+[4.283s] creating /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib
+[4.283s] creating /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.283s] copying yahboom_mediapipe/test_msg.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.284s] copying yahboom_mediapipe/09_VirtualPaint.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.284s] copying yahboom_mediapipe/11_GestureRecognition.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.285s] copying yahboom_mediapipe/06_FaceLandmarks.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.285s] copying yahboom_mediapipe/08_Objectron.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.286s] copying yahboom_mediapipe/untitled.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.286s] copying yahboom_mediapipe/07_FaceDetection.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.286s] copying yahboom_mediapipe/03_Holistic.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.287s] copying yahboom_mediapipe/10_HandCtrl.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.287s] copying yahboom_mediapipe/01_HandDetector.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.288s] copying yahboom_mediapipe/05_FaceEyeDetection.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.288s] copying yahboom_mediapipe/02_PoseDetector.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.289s] copying yahboom_mediapipe/04_FaceMesh.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.289s] copying yahboom_mediapipe/__init__.py -> /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe
+[4.290s] running install
+[4.291s] running install_lib
+[4.294s] creating /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.294s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/test_msg.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.294s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/09_VirtualPaint.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.294s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/11_GestureRecognition.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.295s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/06_FaceLandmarks.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.295s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/08_Objectron.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.295s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/untitled.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.295s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/07_FaceDetection.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.295s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/03_Holistic.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.295s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/10_HandCtrl.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.296s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/01_HandDetector.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.296s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/05_FaceEyeDetection.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.297s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/02_PoseDetector.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.299s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/04_FaceMesh.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.299s] copying /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build/lib/yahboom_mediapipe/__init__.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe
+[4.299s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/test_msg.py to test_msg.cpython-310.pyc
+[4.300s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/09_VirtualPaint.py to 09_VirtualPaint.cpython-310.pyc
+[4.303s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/11_GestureRecognition.py to 11_GestureRecognition.cpython-310.pyc
+[4.307s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/06_FaceLandmarks.py to 06_FaceLandmarks.cpython-310.pyc
+[4.308s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/08_Objectron.py to 08_Objectron.cpython-310.pyc
+[4.310s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/untitled.py to untitled.cpython-310.pyc
+[4.312s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/07_FaceDetection.py to 07_FaceDetection.cpython-310.pyc
+[4.313s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/03_Holistic.py to 03_Holistic.cpython-310.pyc
+[4.318s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/10_HandCtrl.py to 10_HandCtrl.cpython-310.pyc
+[4.319s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/01_HandDetector.py to 01_HandDetector.cpython-310.pyc
+[4.321s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/05_FaceEyeDetection.py to 05_FaceEyeDetection.cpython-310.pyc
+[4.325s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/02_PoseDetector.py to 02_PoseDetector.cpython-310.pyc
+[4.328s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/04_FaceMesh.py to 04_FaceMesh.cpython-310.pyc
+[4.330s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe/__init__.py to __init__.cpython-310.pyc
+[4.331s] running install_data
+[4.331s] creating /home/dwduong74/yahboom_src/install/yahboom_mediapipe/share/ament_index
+[4.331s] creating /home/dwduong74/yahboom_src/install/yahboom_mediapipe/share/ament_index/resource_index
+[4.335s] creating /home/dwduong74/yahboom_src/install/yahboom_mediapipe/share/ament_index/resource_index/packages
+[4.337s] copying resource/yahboom_mediapipe -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/share/ament_index/resource_index/packages
+[4.338s] copying package.xml -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/share/yahboom_mediapipe
+[4.338s] creating /home/dwduong74/yahboom_src/install/yahboom_mediapipe/share/yahboom_mediapipe/rviz
+[4.338s] copying rviz/mediapipe_points.rviz -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/share/yahboom_mediapipe/rviz
+[4.338s] creating /home/dwduong74/yahboom_src/install/yahboom_mediapipe/share/yahboom_mediapipe/launch
+[4.338s] copying launch/mediapipe_points.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_mediapipe/share/yahboom_mediapipe/launch
+[4.338s] running install_egg_info
+[4.346s] Copying ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe-0.0.0-py3.10.egg-info
+[4.348s] running install_scripts
+[4.387s] Installing 01_HandDetector script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[4.387s] Installing 02_PoseDetector script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[4.387s] Installing 03_Holistic script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[4.387s] Installing 04_FaceMesh script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[4.387s] Installing 05_FaceEyeDetection script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[4.388s] Installing test_msg script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[4.390s] writing list of installed files to '/home/dwduong74/yahboom_src/build/yahboom_mediapipe/install.log'
+[4.450s] Invoked command in '/home/dwduong74/yahboom_src/src/yahboom_mediapipe' returned '0': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_mediapipe/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_mediapipe build --build-base /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build install --record /home/dwduong74/yahboom_src/build/yahboom_mediapipe/install.log --single-version-externally-managed install_data

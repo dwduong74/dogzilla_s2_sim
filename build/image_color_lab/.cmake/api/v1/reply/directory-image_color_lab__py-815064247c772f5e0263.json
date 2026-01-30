@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "image_color_lab__py",
+		"source" : "/home/dwduong74/yahboom_src/build/image_color_lab/image_color_lab__py"
+	}
+}

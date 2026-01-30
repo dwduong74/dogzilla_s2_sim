@@ -1,0 +1,38 @@
+[5.081s] Invoking command in '/home/dwduong74/yahboom_src/src/yahboom_gait': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_gait/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_gait/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_gait build --build-base /home/dwduong74/yahboom_src/build/yahboom_gait/build install --record /home/dwduong74/yahboom_src/build/yahboom_gait/install.log --single-version-externally-managed install_data
+[5.965s] running egg_info
+[5.966s] creating ../../build/yahboom_gait/yahboom_gait.egg-info
+[5.967s] writing ../../build/yahboom_gait/yahboom_gait.egg-info/PKG-INFO
+[5.972s] writing dependency_links to ../../build/yahboom_gait/yahboom_gait.egg-info/dependency_links.txt
+[5.974s] writing entry points to ../../build/yahboom_gait/yahboom_gait.egg-info/entry_points.txt
+[5.974s] writing requirements to ../../build/yahboom_gait/yahboom_gait.egg-info/requires.txt
+[5.975s] writing top-level names to ../../build/yahboom_gait/yahboom_gait.egg-info/top_level.txt
+[5.976s] writing manifest file '../../build/yahboom_gait/yahboom_gait.egg-info/SOURCES.txt'
+[5.981s] reading manifest file '../../build/yahboom_gait/yahboom_gait.egg-info/SOURCES.txt'
+[5.984s] writing manifest file '../../build/yahboom_gait/yahboom_gait.egg-info/SOURCES.txt'
+[5.985s] running build
+[5.987s] running build_py
+[5.988s] creating /home/dwduong74/yahboom_src/build/yahboom_gait/build
+[5.988s] creating /home/dwduong74/yahboom_src/build/yahboom_gait/build/lib
+[5.988s] creating /home/dwduong74/yahboom_src/build/yahboom_gait/build/lib/yahboom_gait
+[5.988s] copying yahboom_gait/yahboom_gait.py -> /home/dwduong74/yahboom_src/build/yahboom_gait/build/lib/yahboom_gait
+[5.988s] copying yahboom_gait/__init__.py -> /home/dwduong74/yahboom_src/build/yahboom_gait/build/lib/yahboom_gait
+[5.988s] running install
+[5.988s] running install_lib
+[5.991s] creating /home/dwduong74/yahboom_src/install/yahboom_gait/lib/python3.10/site-packages/yahboom_gait
+[5.992s] copying /home/dwduong74/yahboom_src/build/yahboom_gait/build/lib/yahboom_gait/yahboom_gait.py -> /home/dwduong74/yahboom_src/install/yahboom_gait/lib/python3.10/site-packages/yahboom_gait
+[5.992s] copying /home/dwduong74/yahboom_src/build/yahboom_gait/build/lib/yahboom_gait/__init__.py -> /home/dwduong74/yahboom_src/install/yahboom_gait/lib/python3.10/site-packages/yahboom_gait
+[5.992s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_gait/lib/python3.10/site-packages/yahboom_gait/yahboom_gait.py to yahboom_gait.cpython-310.pyc
+[5.994s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_gait/lib/python3.10/site-packages/yahboom_gait/__init__.py to __init__.cpython-310.pyc
+[5.995s] running install_data
+[5.995s] creating /home/dwduong74/yahboom_src/install/yahboom_gait/share/ament_index
+[5.996s] creating /home/dwduong74/yahboom_src/install/yahboom_gait/share/ament_index/resource_index
+[5.996s] creating /home/dwduong74/yahboom_src/install/yahboom_gait/share/ament_index/resource_index/packages
+[5.997s] copying resource/yahboom_gait -> /home/dwduong74/yahboom_src/install/yahboom_gait/share/ament_index/resource_index/packages
+[5.997s] copying package.xml -> /home/dwduong74/yahboom_src/install/yahboom_gait/share/yahboom_gait
+[5.997s] copying launch/yahboomGaitLaunch.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_gait/share/yahboom_gait
+[5.999s] running install_egg_info
+[6.002s] Copying ../../build/yahboom_gait/yahboom_gait.egg-info to /home/dwduong74/yahboom_src/install/yahboom_gait/lib/python3.10/site-packages/yahboom_gait-0.0.0-py3.10.egg-info
+[6.004s] running install_scripts
+[6.050s] Installing yahboom_gait script to /home/dwduong74/yahboom_src/install/yahboom_gait/lib/yahboom_gait
+[6.051s] writing list of installed files to '/home/dwduong74/yahboom_src/build/yahboom_gait/install.log'
+[6.147s] Invoked command in '/home/dwduong74/yahboom_src/src/yahboom_gait' returned '0': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_gait/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_gait/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_gait build --build-base /home/dwduong74/yahboom_src/build/yahboom_gait/build install --record /home/dwduong74/yahboom_src/build/yahboom_gait/install.log --single-version-externally-managed install_data

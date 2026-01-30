@@ -1,0 +1,175 @@
+[0.115s] Invoking command in '/home/dwduong74/yahboom_src/build/image_color_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/image_color_lab -- -j8 -l8
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_generator_c[0m
+[0.192s] [  2%] Built target image_color_lab__cpp
+[0.192s] [ 12%] Built target image_color_lab__rosidl_generator_c
+[0.209s] [ 12%] Built target ament_cmake_python_copy_image_color_lab
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_typesupport_introspection_c[0m
+[0.220s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_typesupport_cpp[0m
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_typesupport_fastrtps_cpp[0m
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_typesupport_c[0m
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_typesupport_introspection_cpp[0m
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_typesupport_fastrtps_c[0m
+[0.273s] [ 23%] Built target image_color_lab__rosidl_typesupport_cpp
+[0.273s] [ 33%] Built target image_color_lab__rosidl_typesupport_c
+[0.273s] [ 43%] Built target image_color_lab__rosidl_typesupport_fastrtps_cpp
+[0.273s] [ 53%] Built target image_color_lab__rosidl_typesupport_introspection_c
+[0.273s] [ 64%] Built target image_color_lab__rosidl_typesupport_introspection_cpp
+[0.273s] [ 74%] Built target image_color_lab__rosidl_typesupport_fastrtps_c
+[0.312s] [ 74%] Built target image_color_lab
+[0.339s] [ 76%] Built target image_color_lab__py
+[0.359s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_generator_py[0m
+[0.386s] [ 84%] Built target image_color_lab__rosidl_generator_py
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_typesupport_c__pyext[0m
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_typesupport_introspection_c__pyext[0m
+[0.408s] [35m[1mConsolidate compiler generated dependencies of target image_color_lab__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.451s] [ 89%] Built target image_color_lab__rosidl_typesupport_c__pyext
+[0.459s] [ 94%] Built target image_color_lab__rosidl_typesupport_introspection_c__pyext
+[0.459s] [100%] Built target image_color_lab__rosidl_typesupport_fastrtps_c__pyext
+[0.926s] running egg_info
+[0.927s] writing image_color_lab.egg-info/PKG-INFO
+[0.927s] writing dependency_links to image_color_lab.egg-info/dependency_links.txt
+[0.927s] writing top-level names to image_color_lab.egg-info/top_level.txt
+[0.931s] reading manifest file 'image_color_lab.egg-info/SOURCES.txt'
+[0.931s] writing manifest file 'image_color_lab.egg-info/SOURCES.txt'
+[0.965s] [100%] Built target ament_cmake_python_build_image_color_lab_egg
+[2.588s] Invoked command in '/home/dwduong74/yahboom_src/build/image_color_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/image_color_lab -- -j8 -l8
+[2.590s] Invoking command in '/home/dwduong74/yahboom_src/build/image_color_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/image_color_lab
+[2.620s] -- Install configuration: ""
+[2.620s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/ament_index/resource_index/rosidl_interfaces/image_color_lab
+[2.620s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab
+[2.620s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[2.620s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/rosidl_generator_c__visibility_control.h
+[2.620s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/string_stamped.h
+[2.620s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/lab.h
+[2.621s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[2.621s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__struct.h
+[2.626s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__type_support.h
+[2.626s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__type_support.h
+[2.627s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__functions.c
+[2.627s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__functions.c
+[2.627s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__functions.h
+[2.627s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__struct.h
+[2.627s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__functions.h
+[2.627s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/environment/library_path.sh
+[2.627s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/environment/library_path.dsv
+[2.628s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/lib/libimage_color_lab__rosidl_generator_c.so
+[2.628s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab
+[2.628s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[2.628s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.628s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[2.628s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__rosidl_typesupport_fastrtps_c.h
+[2.628s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__rosidl_typesupport_fastrtps_c.h
+[2.634s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_fastrtps_c.so
+[2.635s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab
+[2.635s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[2.635s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/lab.hpp
+[2.635s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/string_stamped.hpp
+[2.635s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.635s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[2.635s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__builder.hpp
+[2.635s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__traits.hpp
+[2.636s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__builder.hpp
+[2.636s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__type_support.hpp
+[2.636s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__struct.hpp
+[2.636s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__struct.hpp
+[2.636s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__type_support.hpp
+[2.636s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__traits.hpp
+[2.636s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab
+[2.637s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[2.637s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.637s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[2.637s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[2.637s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/dds_fastrtps
+[2.637s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__rosidl_typesupport_fastrtps_cpp.hpp
+[2.638s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_fastrtps_cpp.so
+[2.643s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab
+[2.643s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[2.644s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.644s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[2.644s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__rosidl_typesupport_introspection_c.h
+[2.645s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__rosidl_typesupport_introspection_c.h
+[2.645s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__type_support.c
+[2.645s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__type_support.c
+[2.650s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_introspection_c.so
+[2.650s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_c.so
+[2.651s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab
+[2.651s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg
+[2.651s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail
+[2.651s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__rosidl_typesupport_introspection_cpp.hpp
+[2.651s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/string_stamped__type_support.cpp
+[2.652s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__rosidl_typesupport_introspection_cpp.hpp
+[2.652s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/include/image_color_lab/image_color_lab/msg/detail/lab__type_support.cpp
+[2.652s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_introspection_cpp.so
+[2.652s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/lib/libimage_color_lab__rosidl_typesupport_cpp.so
+[2.652s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/environment/pythonpath.sh
+[2.652s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/environment/pythonpath.dsv
+[2.652s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab-0.0.0-py3.10.egg-info
+[2.653s] -- Installing: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.653s] -- Installing: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab-0.0.0-py3.10.egg-info/top_level.txt
+[2.653s] -- Installing: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.653s] -- Installing: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab-0.0.0-py3.10.egg-info/PKG-INFO
+[2.653s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab
+[2.653s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/_image_color_lab_s.ep.rosidl_typesupport_c.c
+[2.653s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.654s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.655s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/_image_color_lab_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.656s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.658s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg
+[2.658s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/_string_stamped_s.c
+[2.659s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/_lab.py
+[2.659s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/_lab_s.c
+[2.659s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/_string_stamped.py
+[2.659s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg/__init__.py
+[2.659s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/_image_color_lab_s.ep.rosidl_typesupport_introspection_c.c
+[2.660s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/libimage_color_lab__rosidl_generator_py.so
+[2.661s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/__init__.py
+[2.700s] Listing '/home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab'...
+[2.700s] Listing '/home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/msg'...
+[2.709s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.711s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.712s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/local/lib/python3.10/dist-packages/image_color_lab/image_color_lab_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.713s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/lib/libimage_color_lab__rosidl_generator_py.so
+[2.713s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/msg/Lab.idl
+[2.714s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/msg/StringStamped.idl
+[2.715s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/msg/Lab.msg
+[2.715s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/msg/StringStamped.msg
+[2.715s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/ament_index/resource_index/package_run_dependencies/image_color_lab
+[2.715s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/ament_index/resource_index/parent_prefix_path/image_color_lab
+[2.715s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/environment/ament_prefix_path.sh
+[2.717s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/environment/ament_prefix_path.dsv
+[2.717s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/environment/path.sh
+[2.717s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/environment/path.dsv
+[2.717s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/local_setup.bash
+[2.720s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/local_setup.sh
+[2.721s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/local_setup.zsh
+[2.723s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/local_setup.dsv
+[2.724s] -- Installing: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/package.dsv
+[2.724s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/ament_index/resource_index/packages/image_color_lab
+[2.724s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_generator_cExport.cmake
+[2.724s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_generator_cExport-noconfig.cmake
+[2.724s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_typesupport_fastrtps_cExport.cmake
+[2.724s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.725s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_generator_cppExport.cmake
+[2.725s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.725s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.729s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_introspection_cExport.cmake
+[2.729s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.730s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_cExport.cmake
+[2.730s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_cExport-noconfig.cmake
+[2.730s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_introspection_cppExport.cmake
+[2.730s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.731s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_cppExport.cmake
+[2.731s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/image_color_lab__rosidl_typesupport_cppExport-noconfig.cmake
+[2.732s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_generator_pyExport.cmake
+[2.732s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/export_image_color_lab__rosidl_generator_pyExport-noconfig.cmake
+[2.733s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/rosidl_cmake-extras.cmake
+[2.733s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.733s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.733s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/ament_cmake_export_libraries-extras.cmake
+[2.733s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/ament_cmake_export_targets-extras.cmake
+[2.733s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.734s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.739s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/image_color_labConfig.cmake
+[2.739s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/cmake/image_color_labConfig-version.cmake
+[2.739s] -- Up-to-date: /home/dwduong74/yahboom_src/install/image_color_lab/share/image_color_lab/package.xml
+[3.718s] Invoked command in '/home/dwduong74/yahboom_src/build/image_color_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/image_color_lab

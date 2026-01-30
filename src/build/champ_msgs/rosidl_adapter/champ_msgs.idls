@@ -1,0 +1,9 @@
+/root/yahboomcar_ws/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Velocities.idl
+/root/yahboomcar_ws/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/PID.idl
+/root/yahboomcar_ws/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Imu.idl
+/root/yahboomcar_ws/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Point.idl
+/root/yahboomcar_ws/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/PointArray.idl
+/root/yahboomcar_ws/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Joints.idl
+/root/yahboomcar_ws/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Contacts.idl
+/root/yahboomcar_ws/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/ContactsStamped.idl
+/root/yahboomcar_ws/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Pose.idl

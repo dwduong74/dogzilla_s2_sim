@@ -1,0 +1,81 @@
+[0.020s] Invoking command in '/home/dwduong74/yahboom_src/build/champ_bringup': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_base/lib:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/lib:/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dwduong74/yahboom_src/install/champ_base/bin:${PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dwduong74/yahboom_src/src/unitree-go2-ros2/champ/champ_bringup -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/champ_bringup
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.163s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.249s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.253s] -- Detecting CXX compiler ABI info
+[0.344s] -- Detecting CXX compiler ABI info - done
+[0.353s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.353s] -- Detecting CXX compile features
+[0.354s] -- Detecting CXX compile features - done
+[0.358s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.540s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.893s] -- Configuring done
+[0.897s] -- Generating done
+[0.900s] -- Build files have been written to: /home/dwduong74/yahboom_src/build/champ_bringup
+[0.904s] Invoked command in '/home/dwduong74/yahboom_src/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_base/lib:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/lib:/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dwduong74/yahboom_src/install/champ_base/bin:${PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dwduong74/yahboom_src/src/unitree-go2-ros2/champ/champ_bringup -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/champ_bringup
+[0.906s] Invoking command in '/home/dwduong74/yahboom_src/build/champ_bringup': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_base/lib:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/lib:/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dwduong74/yahboom_src/install/champ_base/bin:${PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/champ_bringup -- -j8 -l8
+[0.971s] Built target ament_cmake_python_copy_champ_bringup
+[2.113s] running egg_info
+[2.113s] creating champ_bringup.egg-info
+[2.114s] writing champ_bringup.egg-info/PKG-INFO
+[2.114s] writing dependency_links to champ_bringup.egg-info/dependency_links.txt
+[2.114s] writing top-level names to champ_bringup.egg-info/top_level.txt
+[2.115s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[2.118s] reading manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[2.119s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[2.153s] Built target ament_cmake_python_build_champ_bringup_egg
+[2.166s] Invoked command in '/home/dwduong74/yahboom_src/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_base/lib:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/lib:/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dwduong74/yahboom_src/install/champ_base/bin:${PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/champ_bringup -- -j8 -l8
+[2.168s] Invoking command in '/home/dwduong74/yahboom_src/build/champ_bringup': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_base/lib:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/lib:/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dwduong74/yahboom_src/install/champ_base/bin:${PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/champ_bringup
+[2.176s] -- Install configuration: ""
+[2.176s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch
+[2.176s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/bringup.launch
+[2.177s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/bringup.launch.py
+[2.177s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch.py
+[2.177s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include
+[2.178s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/velocity_smoother.launch
+[2.178s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser
+[2.178s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser/d435.launch
+[2.179s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser/rplidar.launch
+[2.179s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser/xv11.launch
+[2.179s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser/sim.launch
+[2.180s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser/hokuyo.launch
+[2.180s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser/ydlidar.launch
+[2.181s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser/realsense.launch
+[2.181s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser/sweep.launch
+[2.181s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser/lms1xx.launch
+[2.182s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/include/laser/kinect.launch
+[2.182s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch
+[2.182s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/environment/pythonpath.sh
+[2.183s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/environment/pythonpath.dsv
+[2.183s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info
+[2.183s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/SOURCES.txt
+[2.183s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/top_level.txt
+[2.183s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/dependency_links.txt
+[2.184s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/PKG-INFO
+[2.184s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup
+[2.184s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py
+[2.184s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py
+[2.226s] Listing '/home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup'...
+[2.226s] Compiling '/home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py'...
+[2.226s] Compiling '/home/dwduong74/yahboom_src/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py'...
+[2.231s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/lib/champ_bringup/joint_calibrator_relay.py
+[2.232s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/ament_index/resource_index/package_run_dependencies/champ_bringup
+[2.232s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/ament_index/resource_index/parent_prefix_path/champ_bringup
+[2.232s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.sh
+[2.232s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.dsv
+[2.232s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/environment/path.sh
+[2.233s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/environment/path.dsv
+[2.233s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/local_setup.bash
+[2.233s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/local_setup.sh
+[2.233s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/local_setup.zsh
+[2.233s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/local_setup.dsv
+[2.233s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/package.dsv
+[2.233s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/ament_index/resource_index/packages/champ_bringup
+[2.234s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig.cmake
+[2.234s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig-version.cmake
+[2.234s] -- Installing: /home/dwduong74/yahboom_src/install/champ_bringup/share/champ_bringup/package.xml
+[2.237s] Invoked command in '/home/dwduong74/yahboom_src/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_description:/home/dwduong74/yahboom_src/install/champ_base:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins:/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_base/lib:/home/dwduong74/yahboom_src/install/velodyne_gazebo_plugins/lib:/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/dwduong74/yahboom_src/install/champ_base/bin:${PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/champ_bringup

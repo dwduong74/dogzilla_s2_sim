@@ -1,0 +1,21 @@
+[3.011s] Invoking command in '/home/dwduong74/yahboom_src/src/tf_publisher': PYTHONPATH=/home/dwduong74/yahboom_src/build/tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_publisher build --build-base /home/dwduong74/yahboom_src/build/tf_publisher/build install --record /home/dwduong74/yahboom_src/build/tf_publisher/install.log --single-version-externally-managed install_data
+[3.607s] running egg_info
+[3.608s] writing ../../build/tf_publisher/tf_publisher.egg-info/PKG-INFO
+[3.610s] writing dependency_links to ../../build/tf_publisher/tf_publisher.egg-info/dependency_links.txt
+[3.610s] writing entry points to ../../build/tf_publisher/tf_publisher.egg-info/entry_points.txt
+[3.610s] writing requirements to ../../build/tf_publisher/tf_publisher.egg-info/requires.txt
+[3.610s] writing top-level names to ../../build/tf_publisher/tf_publisher.egg-info/top_level.txt
+[3.613s] reading manifest file '../../build/tf_publisher/tf_publisher.egg-info/SOURCES.txt'
+[3.616s] writing manifest file '../../build/tf_publisher/tf_publisher.egg-info/SOURCES.txt'
+[3.616s] running build
+[3.616s] running build_py
+[3.616s] running install
+[3.616s] running install_lib
+[3.618s] running install_data
+[3.619s] running install_egg_info
+[3.622s] removing '/home/dwduong74/yahboom_src/install/tf_publisher/lib/python3.10/site-packages/tf_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[3.625s] Copying ../../build/tf_publisher/tf_publisher.egg-info to /home/dwduong74/yahboom_src/install/tf_publisher/lib/python3.10/site-packages/tf_publisher-0.0.0-py3.10.egg-info
+[3.625s] running install_scripts
+[3.657s] Installing tf_publisher script to /home/dwduong74/yahboom_src/install/tf_publisher/lib/tf_publisher
+[3.658s] writing list of installed files to '/home/dwduong74/yahboom_src/build/tf_publisher/install.log'
+[4.521s] Invoked command in '/home/dwduong74/yahboom_src/src/tf_publisher' returned '0': PYTHONPATH=/home/dwduong74/yahboom_src/build/tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tf_publisher build --build-base /home/dwduong74/yahboom_src/build/tf_publisher/build install --record /home/dwduong74/yahboom_src/build/tf_publisher/install.log --single-version-externally-managed install_data

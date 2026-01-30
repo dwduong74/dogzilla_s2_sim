@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <!-- Ignition ros2_control plugin -->
+    <gazebo>
+        <plugin filename="libgz_ros2_control-system.so" name="gz_ros2_control::GazeboSimROS2Control">
+            <parameters>$(find dogzilla_config)/config/ros_control/ros_control.yaml</parameters>
+        </plugin>
+    </gazebo>
+
+    <!-- IMU Sensor -->
+    <gazebo reference="imu_link">
+        <sensor name="imu_sensor" type="imu">
+            <always_on>true</always_on>
+            <update_rate>400</update_rate>
+            <visualize>false</visualize>
+            <plugin filename="libgz_sim_ros_imu-system.so" name="gz::sim::systems::ROSImu">
+                <ros>
+                    <namespace>/dogzilla</namespace>
+                    <remapping>~/out:=imu/data</remapping>
+                </ros>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <!-- Camera -->
+    <gazebo reference="camera_link">
+        <sensor name="camera" type="camera">
+            <update_rate>30</update_rate>
+            <visualize>true</visualize>
+            <camera>
+                <horizontal_fov>1.396</horizontal_fov>
+                <image>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+                <clip>
+                    <near>0.02</near>
+                    <far>300</far>
+                </clip>
+            </camera>
+            <plugin filename="libgz_sim_ros_camera-system.so" name="gz::sim::systems::Camera">
+                <ros>
+                    <namespace>/dogzilla</namespace>
+                    <remapping>~/image_raw:=camera/image_raw</remapping>
+                    <remapping>~/camera_info:=camera/camera_info</remapping>
+                </ros>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <!-- Lidar -->
+    <gazebo reference="laser_link">
+        <sensor name='gpu_lidar' type='gpu_ray'>
+            <pose>0 0 0 0 0 0</pose>
+            <update_rate>10</update_rate>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>360</samples>
+                        <resolution>1</resolution>
+                        <min_angle>-3.14159</min_angle>
+                        <max_angle>3.14159</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.10</min>
+                    <max>12.0</max>
+                    <resolution>0.01</resolution>
+                </range>
+            </ray>
+            <visualize>false</visualize>
+            <plugin filename="libgz_sim_ros_gpu_lidar-system.so" name="gz::sim::systems::GpuLidar">
+                <ros>
+                    <namespace>/dogzilla</namespace>
+                    <remapping>~/out:=scan</remapping>
+                </ros>
+                <topic>scan</topic>
+                <frame>laser_link</frame>
+            </plugin>
+        </sensor>
+    </gazebo>
+</robot>

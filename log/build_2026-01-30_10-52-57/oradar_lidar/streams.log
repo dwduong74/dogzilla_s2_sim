@@ -1,0 +1,59 @@
+[0.155s] Invoking command in '/home/dwduong74/yahboom_src/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/oradar_lidar -- -j8 -l8
+[0.289s] [ 60%] Built target oradar_sdk
+[0.344s] [ 70%] Built target non-blocking_test
+[0.360s] [ 80%] Built target blocking_c_api_test
+[0.370s] [ 90%] Built target oradar_scan
+[0.372s] [100%] Built target blocking_test
+[2.140s] Invoked command in '/home/dwduong74/yahboom_src/build/oradar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/oradar_lidar -- -j8 -l8
+[2.143s] Invoking command in '/home/dwduong74/yahboom_src/build/oradar_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/oradar_lidar
+[2.690s] -- Install configuration: "RELEASE"
+[2.691s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/lib/oradar_lidar/oradar_scan
+[2.691s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch
+[2.691s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan_view.launch
+[2.692s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan_view.launch.py
+[2.692s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan.launch.py
+[2.692s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//launch/ms200_scan.launch
+[2.692s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//rviz2
+[2.692s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar//rviz2/oradar_scan.rviz
+[2.692s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/ament_index/resource_index/package_run_dependencies/oradar_lidar
+[2.692s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/ament_index/resource_index/parent_prefix_path/oradar_lidar
+[2.692s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/ament_prefix_path.sh
+[2.693s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/ament_prefix_path.dsv
+[2.693s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/path.sh
+[2.693s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/environment/path.dsv
+[2.694s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.bash
+[2.694s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.sh
+[2.695s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.zsh
+[2.696s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/local_setup.dsv
+[2.696s] -- Installing: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/package.dsv
+[2.697s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/ament_index/resource_index/packages/oradar_lidar
+[2.697s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/cmake/oradar_lidarConfig.cmake
+[2.697s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/cmake/oradar_lidarConfig-version.cmake
+[2.697s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/share/oradar_lidar/package.xml
+[2.698s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/datatype.h
+[2.698s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/locker.h
+[2.698s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/thread.h
+[2.698s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/timer.h
+[2.698s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/typedef.h
+[2.699s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/utils.h
+[2.699s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/base/v8stdint.h
+[2.699s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/common/ChannelDevice.h
+[2.699s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/math/angles.h
+[2.700s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/ActiveSocket.h
+[2.700s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/PassiveSocket.h
+[2.700s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/SimpleSocket.h
+[2.701s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/network/StatTimer.h
+[2.701s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/common.h
+[2.702s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/serial.h
+[2.703s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/impl/unix/lock.h
+[2.703s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/impl/unix/unix.h
+[2.703s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/core/serial/impl/unix/unix_serial.h
+[2.703s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/ord_lidar_c_api_driver.h
+[2.704s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/ord_lidar_driver.h
+[2.704s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/ordlidar_protocol.h
+[2.704s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/include/src/filters/FullScanFilter.h
+[2.704s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/lib/liboradar_sdk.a
+[2.704s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/bin/blocking_test
+[2.704s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/bin/non-blocking_test
+[2.704s] -- Up-to-date: /home/dwduong74/yahboom_src/install/oradar_lidar/bin/blocking_c_api_test
+[2.745s] Invoked command in '/home/dwduong74/yahboom_src/build/oradar_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/yahboom_src/install/yahboom_set_height:/home/dwduong74/yahboom_src/install/yahboom_mediapipe:/home/dwduong74/yahboom_src/install/yahboom_gait:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state:/home/dwduong74/yahboom_src/install/yahboom_description:/home/dwduong74/yahboom_src/install/yahboom_bringup:/home/dwduong74/yahboom_src/install/yahboom_base:/home/dwduong74/yahboom_src/install/yahboom_app_save_map:/home/dwduong74/yahboom_src/install/tf_publisher:/home/dwduong74/yahboom_src/install/bringup:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/oradar_lidar

@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<robot name="dogzilla" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Includes -->
+    <xacro:include filename="$(find dogzilla_description)/xacro/materials.xacro" />
+    <xacro:include filename="$(find dogzilla_description)/xacro/leg.xacro" />
+    <xacro:include filename="$(find dogzilla_description)/xacro/gazebo.xacro" />
+    
+    <!-- Base Footprint -->
+    <link name="base_footprint"/>
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link" />
+        <origin xyz="0 0 0.010" rpy="0 0 0"/>
+    </joint>
+
+    <!-- Base Link -->
+    <link name="base_link">
+        <inertial>
+            <origin xyz="0.0052 -0.00026 0.02806" rpy="0 0 0" />
+            <mass value="0.38735" />
+            <inertia ixx="0.00019" ixy="1.612e-06" ixz="-3.196e-06" iyy="0.001056" iyz="-1.549e-06" izz="0.001185" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="model://dogzilla_description/meshes_dog/base_link.STL" />
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="model://dogzilla_description/meshes_dog/base_link.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- Leg Instantiation -->
+    <xacro:leg prefix="lf" parent="base_link" hip_x="0.09332" hip_y="0.022407" hip_z="0.01454" hip_axis_x="-1" upper_leg_axis_y="1" lower_leg_axis_y="1"/>
+    <xacro:leg prefix="rf" parent="base_link" hip_x="0.09332" hip_y="-0.022517" hip_z="0.01454" hip_axis_x="-1" upper_leg_axis_y="-1" lower_leg_axis_y="-1"/>
+    <xacro:leg prefix="lh" parent="base_link" hip_x="-0.05668" hip_y="0.022407" hip_z="0.01454" hip_axis_x="1" upper_leg_axis_y="1" lower_leg_axis_y="1"/>
+    <xacro:leg prefix="rh" parent="base_link" hip_x="-0.05668" hip_y="-0.022517" hip_z="0.01454" hip_axis_x="1" upper_leg_axis_y="-1" lower_leg_axis_y="-1"/>
+
+    <!-- Sensors -->
+    <!-- Camera -->
+    <link name="camera_link">
+        <inertial>
+            <mass value="0.0046"/>
+            <origin xyz="-0.014 0 0"/>
+            <inertia ixx="3.06e-07" ixy="0" ixz="0" iyy="3.7e-07" iyz="0" izz="3.8e-07"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="model://dogzilla_description/meshes_dog/camera_link.STL"/>
+            </geometry>
+            <material name="dark_grey"/>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="model://dogzilla_description/meshes_dog/camera_link.STL"/>
+            </geometry>
+        </collision>
+    </link>
+    <joint name="camera_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera_link"/>
+        <origin xyz="0.075751 0 0.059653" rpy="0 0 0"/>
+    </joint>
+
+    <!-- Laser -->
+    <link name="laser_link">
+        <inertial>
+            <mass value="0.014"/>
+            <origin xyz="0 0 -0.0228"/>
+            <inertia ixx="2.42e-06" ixy="0" ixz="0" iyy="2.37e-06" iyz="0" izz="4.26e-06"/>
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="model://dogzilla_description/meshes_dog/laser_link.STL"/>
+            </geometry>
+            <material name="white"/>
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="model://dogzilla_description/meshes_dog/laser_link.STL"/>
+            </geometry>
+        </collision>
+    </link>
+    <joint name="laser_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="laser_link"/>
+        <origin xyz="-0.016732 0 0.10335" rpy="0 0 0"/>
+    </joint>
+
+    <!-- IMU -->
+    <link name="imu_link"/>
+    <joint name="imu_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+        <origin xyz="0.085 0 0.070" rpy="0 0 0"/>
+    </joint>
+
+</robot>

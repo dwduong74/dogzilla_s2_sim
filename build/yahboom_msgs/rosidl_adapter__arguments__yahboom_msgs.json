@@ -1,0 +1,10 @@
+{
+  "package_name": "yahboom_msgs",
+  "non_idl_tuples": [
+    "/home/dwduong74/yahboom_src/src/yahboom_msgs:msg/ImageMsg.msg",
+    "/home/dwduong74/yahboom_src/src/yahboom_msgs:msg/PointArray.msg",
+    "/home/dwduong74/yahboom_src/src/yahboom_msgs:msg/Position.msg",
+    "/home/dwduong74/yahboom_src/src/yahboom_msgs:msg/Target.msg",
+    "/home/dwduong74/yahboom_src/src/yahboom_msgs:msg/TargetArray.msg"
+  ]
+}

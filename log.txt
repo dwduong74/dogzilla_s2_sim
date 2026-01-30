@@ -1,0 +1,190 @@
+[INFO] [launch]: All log files can be found below /home/dwduong74/.ros/log/2026-01-30-11-08-23-763849-dwduong74-Precision-3520-47737
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_state_publisher-1]: process started with pid [47742]
+[INFO] [quadruped_controller_node-2]: process started with pid [47744]
+[INFO] [state_estimation_node-3]: process started with pid [47746]
+[INFO] [ekf_node-4]: process started with pid [47748]
+[INFO] [ekf_node-5]: process started with pid [47750]
+[INFO] [rviz2-6]: process started with pid [47752]
+[INFO] [ign-7]: process started with pid [47754]
+[INFO] [create-8]: process started with pid [47756]
+[INFO] [parameter_bridge-9]: process started with pid [47758]
+[INFO] [parameter_bridge-10]: process started with pid [47760]
+[INFO] [parameter_bridge-11]: process started with pid [47765]
+[INFO] [parameter_bridge-12]: process started with pid [47780]
+[rviz2-6] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[ekf_node-4] [WARN] [1769746104.633765021] [base_to_footprint_ekf]: Warning: Some linear velocity entries in parameter imu0_config are listed true, but an sensor_msgs/Imu contains no information about linear velocities
+[ekf_node-4] Warning: imu/data is listed as an input topic, but all its update variables are false
+[create-8] [INFO] [1769746104.637273069] [ros_gz_sim]: Requesting list of world names.
+[parameter_bridge-11] [INFO] [1769746104.692561128] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/scan (ignition.msgs.LaserScan) -> /scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-12] [INFO] [1769746104.720055790] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/velodyne_points/points (ignition.msgs.PointCloudPacked) -> /velodyne_points/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[state_estimation_node-3] [INFO] [1769746104.723576070] [rclcpp]: Successfully parsed urdf file
+[robot_state_publisher-1] [INFO] [1769746104.739278860] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-1] [INFO] [1769746104.740316403] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-1] [INFO] [1769746104.740336829] [robot_state_publisher]: got segment lf_foot_link
+[robot_state_publisher-1] [INFO] [1769746104.740347287] [robot_state_publisher]: got segment lf_hip_link
+[robot_state_publisher-1] [INFO] [1769746104.740356347] [robot_state_publisher]: got segment lf_lower_leg_link
+[robot_state_publisher-1] [INFO] [1769746104.740365279] [robot_state_publisher]: got segment lf_upper_leg_link
+[robot_state_publisher-1] [INFO] [1769746104.740374446] [robot_state_publisher]: got segment lh_foot_link
+[robot_state_publisher-1] [INFO] [1769746104.740383358] [robot_state_publisher]: got segment lh_hip_link
+[robot_state_publisher-1] [INFO] [1769746104.740392014] [robot_state_publisher]: got segment lh_lower_leg_link
+[robot_state_publisher-1] [INFO] [1769746104.740400874] [robot_state_publisher]: got segment lh_upper_leg_link
+[robot_state_publisher-1] [INFO] [1769746104.740409809] [robot_state_publisher]: got segment rf_foot_link
+[robot_state_publisher-1] [INFO] [1769746104.740418664] [robot_state_publisher]: got segment rf_hip_link
+[robot_state_publisher-1] [INFO] [1769746104.740427321] [robot_state_publisher]: got segment rf_lower_leg_link
+[robot_state_publisher-1] [INFO] [1769746104.740436411] [robot_state_publisher]: got segment rf_upper_leg_link
+[robot_state_publisher-1] [INFO] [1769746104.740445948] [robot_state_publisher]: got segment rh_foot_link
+[robot_state_publisher-1] [INFO] [1769746104.740455591] [robot_state_publisher]: got segment rh_hip_link
+[robot_state_publisher-1] [INFO] [1769746104.740464252] [robot_state_publisher]: got segment rh_lower_leg_link
+[robot_state_publisher-1] [INFO] [1769746104.740473251] [robot_state_publisher]: got segment rh_upper_leg_link
+[robot_state_publisher-1] [INFO] [1769746104.740482582] [robot_state_publisher]: got segment trunk
+[parameter_bridge-10] [INFO] [1769746104.741212765] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/imu/data (ignition.msgs.IMU) -> /imu/data (sensor_msgs/msg/Imu)] (Lazy 0)
+[quadruped_controller_node-2] [INFO] [1769746104.747106191] [rclcpp]: Successfully parsed urdf file
+[parameter_bridge-9] [INFO] [1769746104.759143039] [ros_gz_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)
+[ign-7] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[rviz2-6] [INFO] [1769746105.028238131] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-6] [INFO] [1769746105.028455278] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-6] [INFO] [1769746105.053987395] [rviz2]: Stereo is NOT SUPPORTED
+[create-8] [INFO] [1769746105.286559750] [ros_gz_sim]: Waiting messages on topic [/robot_description].
+[create-8] [INFO] [1769746105.299075844] [ros_gz_sim]: Requested creation of entity.
+[create-8] [INFO] [1769746105.299140048] [ros_gz_sim]: OK creation of entity.
+[INFO] [create-8]: process has finished cleanly [pid 47756]
+[ign-7] [INFO] [1769746107.020569646] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_state_publisher
+[ign-7] [INFO] [1769746107.020603668] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_description
+[ign-7] [INFO] [1769746107.108262088] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description
+[ign-7] [INFO] [1769746107.109185795] [gz_ros2_control]: Received URDF from param server
+[ign-7] [INFO] [1769746107.118256439] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[ign-7] [INFO] [1769746107.118336491] [gz_ros2_control]: Loading joint: rf_hip_joint
+[ign-7] [INFO] [1769746107.118362727] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.118376319] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.118388350] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.118398879] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.118408948] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.118437145] [gz_ros2_control]: Loading joint: rf_upper_leg_joint
+[ign-7] [INFO] [1769746107.118452713] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.118465504] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.118480502] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.118496945] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.118513890] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.118561052] [gz_ros2_control]: Loading joint: rf_lower_leg_joint
+[ign-7] [INFO] [1769746107.118573332] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.118582624] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.118621786] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.118634904] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.118646583] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.118747021] [gz_ros2_control]: Loading sensor: imu_sensor
+[ign-7] [INFO] [1769746107.118778182] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.118864927] [resource_manager]: Initialize hardware 'rf' 
+[ign-7] [INFO] [1769746107.118954309] [resource_manager]: Successful initialization of hardware 'rf'
+[ign-7] [INFO] [1769746107.119011489] [resource_manager]: 'configure' hardware 'rf' 
+[ign-7] [INFO] [1769746107.119021850] [gz_ros2_control]: System Successfully configured!
+[ign-7] [INFO] [1769746107.119046272] [resource_manager]: Successful 'configure' of hardware 'rf'
+[ign-7] [INFO] [1769746107.119054462] [resource_manager]: 'activate' hardware 'rf' 
+[ign-7] [INFO] [1769746107.119060734] [resource_manager]: Successful 'activate' of hardware 'rf'
+[ign-7] [INFO] [1769746107.119201377] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[ign-7] [INFO] [1769746107.119227771] [gz_ros2_control]: Loading joint: lf_hip_joint
+[ign-7] [INFO] [1769746107.119236196] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.119242866] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.119249481] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.119255759] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.119261806] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.119286783] [gz_ros2_control]: Loading joint: lf_upper_leg_joint
+[ign-7] [INFO] [1769746107.119306215] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.119316933] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.119330334] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.119340429] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.119354046] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.119382036] [gz_ros2_control]: Loading joint: lf_lower_leg_joint
+[ign-7] [INFO] [1769746107.119394837] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.119411447] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.119429452] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.119449255] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.119461801] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.119485393] [gz_ros2_control]: Loading sensor: imu_sensor
+[ign-7] [INFO] [1769746107.119504793] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.119517588] [resource_manager]: Initialize hardware 'lf' 
+[ign-7] [INFO] [1769746107.119539725] [resource_manager]: Successful initialization of hardware 'lf'
+[ign-7] [INFO] [1769746107.119567103] [resource_manager]: 'configure' hardware 'lf' 
+[ign-7] [INFO] [1769746107.119575228] [gz_ros2_control]: System Successfully configured!
+[ign-7] [INFO] [1769746107.119590793] [resource_manager]: Successful 'configure' of hardware 'lf'
+[ign-7] [INFO] [1769746107.119599845] [resource_manager]: 'activate' hardware 'lf' 
+[ign-7] [INFO] [1769746107.119607962] [resource_manager]: Successful 'activate' of hardware 'lf'
+[ign-7] [INFO] [1769746107.119720701] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[ign-7] [INFO] [1769746107.119772253] [gz_ros2_control]: Loading joint: rh_hip_joint
+[ign-7] [INFO] [1769746107.119790326] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.119800762] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.119818075] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.119833066] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.119847026] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.119872953] [gz_ros2_control]: Loading joint: rh_upper_leg_joint
+[ign-7] [INFO] [1769746107.119888596] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.119903300] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.119917557] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.119931563] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.119945164] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.119968922] [gz_ros2_control]: Loading joint: rh_lower_leg_joint
+[ign-7] [INFO] [1769746107.119984131] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.119997958] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.120012332] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.120026929] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.120038366] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.120057120] [gz_ros2_control]: Loading sensor: imu_sensor
+[ign-7] [INFO] [1769746107.120071328] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.120086759] [resource_manager]: Initialize hardware 'rh' 
+[ign-7] [INFO] [1769746107.120114611] [resource_manager]: Successful initialization of hardware 'rh'
+[ign-7] [INFO] [1769746107.120140462] [resource_manager]: 'configure' hardware 'rh' 
+[ign-7] [INFO] [1769746107.120148050] [gz_ros2_control]: System Successfully configured!
+[ign-7] [INFO] [1769746107.120167085] [resource_manager]: Successful 'configure' of hardware 'rh'
+[ign-7] [INFO] [1769746107.120177266] [resource_manager]: 'activate' hardware 'rh' 
+[ign-7] [INFO] [1769746107.120188574] [resource_manager]: Successful 'activate' of hardware 'rh'
+[ign-7] [INFO] [1769746107.120260415] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[ign-7] [INFO] [1769746107.120290980] [gz_ros2_control]: Loading joint: lh_hip_joint
+[ign-7] [INFO] [1769746107.120305032] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.120315478] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.120329334] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.120353915] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.120369753] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.120396837] [gz_ros2_control]: Loading joint: lh_upper_leg_joint
+[ign-7] [INFO] [1769746107.120412654] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.120424686] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.120435224] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.120445015] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.120457591] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.120480530] [gz_ros2_control]: Loading joint: lh_lower_leg_joint
+[ign-7] [INFO] [1769746107.120514930] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.120530956] [gz_ros2_control]: 		 position
+[ign-7] [INFO] [1769746107.120545550] [gz_ros2_control]: 		 velocity
+[ign-7] [INFO] [1769746107.120559597] [gz_ros2_control]: 	Command:
+[ign-7] [INFO] [1769746107.120573403] [gz_ros2_control]: 		 effort
+[ign-7] [INFO] [1769746107.120593442] [gz_ros2_control]: Loading sensor: imu_sensor
+[ign-7] [INFO] [1769746107.120608998] [gz_ros2_control]: 	State:
+[ign-7] [INFO] [1769746107.120623641] [resource_manager]: Initialize hardware 'lh' 
+[ign-7] [INFO] [1769746107.120650241] [resource_manager]: Successful initialization of hardware 'lh'
+[ign-7] [INFO] [1769746107.120673771] [resource_manager]: 'configure' hardware 'lh' 
+[ign-7] [INFO] [1769746107.120682233] [gz_ros2_control]: System Successfully configured!
+[ign-7] [INFO] [1769746107.120699278] [resource_manager]: Successful 'configure' of hardware 'lh'
+[ign-7] [INFO] [1769746107.120714016] [resource_manager]: 'activate' hardware 'lh' 
+[ign-7] [INFO] [1769746107.120724937] [resource_manager]: Successful 'activate' of hardware 'lh'
+[ign-7] [INFO] [1769746107.120733979] [gz_ros2_control]: Loading controller_manager
+[ign-7] [INFO] [1769746107.176124753] [gz_ros2_control]: IMU imu_sensor has a topic name: world/default/model/go2_robot/link/base_link/sensor/imu_sensor/imu
+[ign-7] [INFO] [1769746107.176496803] [gz_ros2_control]: IMU imu_sensor has a topic name: world/default/model/go2_robot/link/base_link/sensor/imu_sensor/imu
+[ign-7] [INFO] [1769746107.176614537] [gz_ros2_control]: IMU imu_sensor has a topic name: world/default/model/go2_robot/link/base_link/sensor/imu_sensor/imu
+[ign-7] [INFO] [1769746107.176711499] [gz_ros2_control]: IMU imu_sensor has a topic name: world/default/model/go2_robot/link/base_link/sensor/imu_sensor/imu
+[INFO] [ros2-13]: process started with pid [48077]
+[INFO] [ros2-14]: process started with pid [48096]
+[ign-7] [INFO] [1769746111.423156680] [controller_manager]: Loading controller 'joint_states_controller'
+[ign-7] [INFO] [1769746111.474088456] [controller_manager]: Configuring controller 'joint_states_controller'
+[ign-7] [INFO] [1769746111.474296947] [joint_states_controller]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[ros2-13] Successfully loaded controller joint_states_controller into state active
+[INFO] [ros2-13]: process has finished cleanly [pid 48077]
+[ros2-14] [INFO] [1769746112.351167766] [_ros2cli_48096]: waiting for service /controller_manager/load_controller to become available...
+[ign-7] [INFO] [1769746113.603147015] [controller_manager]: Loading controller 'joint_group_effort_controller'
+[ign-7] [WARN] [1769746113.640067165] [joint_group_effort_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[ign-7] [INFO] [1769746113.649245752] [controller_manager]: Configuring controller 'joint_group_effort_controller'
+[ign-7] [INFO] [1769746113.649766249] [joint_group_effort_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[ign-7] [INFO] [1769746113.649869079] [joint_group_effort_controller]: Command interfaces are [effort] and state interfaces are [position velocity].
+[ign-7] [INFO] [1769746113.649926774] [joint_group_effort_controller]: Using 'splines' interpolation method.
+[ign-7] [INFO] [1769746113.653056078] [joint_group_effort_controller]: Controller state will be published at 50.00 Hz.
+[ign-7] [INFO] [1769746113.657543433] [joint_group_effort_controller]: Action status changes will be monitored at 20.00 Hz.
+[ros2-14] Successfully loaded controller joint_group_effort_controller into state active
+[INFO] [ros2-14]: process has finished cleanly [pid 48096]

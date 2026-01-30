@@ -1,0 +1,56 @@
+[8.481s] Invoking command in '/home/dwduong74/yahboom_src/src/yahboom_description': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_description build --build-base /home/dwduong74/yahboom_src/build/yahboom_description/build install --record /home/dwduong74/yahboom_src/build/yahboom_description/install.log --single-version-externally-managed install_data
+[10.081s] running egg_info
+[10.082s] creating ../../build/yahboom_description/yahboom_description.egg-info
+[10.082s] writing ../../build/yahboom_description/yahboom_description.egg-info/PKG-INFO
+[10.083s] writing dependency_links to ../../build/yahboom_description/yahboom_description.egg-info/dependency_links.txt
+[10.083s] writing entry points to ../../build/yahboom_description/yahboom_description.egg-info/entry_points.txt
+[10.083s] writing requirements to ../../build/yahboom_description/yahboom_description.egg-info/requires.txt
+[10.083s] writing top-level names to ../../build/yahboom_description/yahboom_description.egg-info/top_level.txt
+[10.085s] writing manifest file '../../build/yahboom_description/yahboom_description.egg-info/SOURCES.txt'
+[10.088s] reading manifest file '../../build/yahboom_description/yahboom_description.egg-info/SOURCES.txt'
+[10.090s] writing manifest file '../../build/yahboom_description/yahboom_description.egg-info/SOURCES.txt'
+[10.091s] running build
+[10.091s] running build_py
+[10.091s] creating /home/dwduong74/yahboom_src/build/yahboom_description/build
+[10.091s] creating /home/dwduong74/yahboom_src/build/yahboom_description/build/lib
+[10.091s] creating /home/dwduong74/yahboom_src/build/yahboom_description/build/lib/yahboom_description
+[10.092s] copying yahboom_description/yahboom_urdf.launch.py -> /home/dwduong74/yahboom_src/build/yahboom_description/build/lib/yahboom_description
+[10.092s] copying yahboom_description/__init__.py -> /home/dwduong74/yahboom_src/build/yahboom_description/build/lib/yahboom_description
+[10.092s] running install
+[10.092s] running install_lib
+[10.094s] creating /home/dwduong74/yahboom_src/install/yahboom_description/lib/python3.10/site-packages/yahboom_description
+[10.094s] copying /home/dwduong74/yahboom_src/build/yahboom_description/build/lib/yahboom_description/yahboom_urdf.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_description/lib/python3.10/site-packages/yahboom_description
+[10.094s] copying /home/dwduong74/yahboom_src/build/yahboom_description/build/lib/yahboom_description/__init__.py -> /home/dwduong74/yahboom_src/install/yahboom_description/lib/python3.10/site-packages/yahboom_description
+[10.095s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_description/lib/python3.10/site-packages/yahboom_description/yahboom_urdf.launch.py to yahboom_urdf.launch.cpython-310.pyc
+[10.096s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_description/lib/python3.10/site-packages/yahboom_description/__init__.py to __init__.cpython-310.pyc
+[10.097s] running install_data
+[10.097s] creating /home/dwduong74/yahboom_src/install/yahboom_description/share/ament_index
+[10.097s] creating /home/dwduong74/yahboom_src/install/yahboom_description/share/ament_index/resource_index
+[10.097s] creating /home/dwduong74/yahboom_src/install/yahboom_description/share/ament_index/resource_index/packages
+[10.098s] copying resource/yahboom_description -> /home/dwduong74/yahboom_src/install/yahboom_description/share/ament_index/resource_index/packages
+[10.098s] copying package.xml -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description
+[10.098s] creating /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/urdf
+[10.098s] copying urdf/yahboom_xgo_rviz.xacro -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/urdf
+[10.099s] copying launch/yahboom_urdf.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description
+[10.099s] creating /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes
+[10.099s] creating /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO
+[10.100s] copying meshes/XGO/base_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.101s] copying meshes/XGO/camera_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.102s] copying meshes/XGO/laser_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.110s] copying meshes/XGO/lf_hip_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.111s] copying meshes/XGO/lf_lower_leg_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.113s] copying meshes/XGO/lf_upper_leg_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.113s] copying meshes/XGO/lh_hip_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.115s] copying meshes/XGO/lh_lower_leg_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.116s] copying meshes/XGO/lh_upper_leg_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.117s] copying meshes/XGO/rf_hip_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.118s] copying meshes/XGO/rf_lower_leg_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.119s] copying meshes/XGO/rf_upper_leg_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.120s] copying meshes/XGO/rh_hip_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.122s] copying meshes/XGO/rh_lower_leg_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.124s] copying meshes/XGO/rh_upper_leg_link.STL -> /home/dwduong74/yahboom_src/install/yahboom_description/share/yahboom_description/meshes/XGO/
+[10.127s] running install_egg_info
+[10.131s] Copying ../../build/yahboom_description/yahboom_description.egg-info to /home/dwduong74/yahboom_src/install/yahboom_description/lib/python3.10/site-packages/yahboom_description-0.0.0-py3.10.egg-info
+[10.132s] running install_scripts
+[10.163s] writing list of installed files to '/home/dwduong74/yahboom_src/build/yahboom_description/install.log'
+[10.331s] Invoked command in '/home/dwduong74/yahboom_src/src/yahboom_description' returned '0': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_description build --build-base /home/dwduong74/yahboom_src/build/yahboom_description/build install --record /home/dwduong74/yahboom_src/build/yahboom_description/install.log --single-version-externally-managed install_data

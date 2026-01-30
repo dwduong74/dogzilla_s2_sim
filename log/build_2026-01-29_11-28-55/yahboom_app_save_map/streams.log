@@ -1,0 +1,42 @@
+[2.617s] Invoking command in '/home/dwduong74/yahboom_src/src/yahboom_app_save_map': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_app_save_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build install --record /home/dwduong74/yahboom_src/build/yahboom_app_save_map/install.log --single-version-externally-managed install_data
+[5.739s] running egg_info
+[5.739s] creating ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info
+[5.739s] writing ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/PKG-INFO
+[5.739s] writing dependency_links to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/dependency_links.txt
+[5.739s] writing entry points to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/entry_points.txt
+[5.739s] writing requirements to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/requires.txt
+[5.739s] writing top-level names to ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/top_level.txt
+[5.740s] writing manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[5.760s] reading manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[5.762s] writing manifest file '../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info/SOURCES.txt'
+[5.767s] running build
+[5.767s] running build_py
+[5.767s] creating /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build
+[5.767s] creating /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build/lib
+[5.768s] creating /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[5.768s] copying yahboom_app_save_map/yahboom_app_save_map.py -> /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[5.768s] copying yahboom_app_save_map/__init__.py -> /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[5.785s] copying yahboom_app_save_map/yahboom_app_save_map_client.py -> /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map
+[5.786s] running install
+[5.786s] running install_lib
+[5.787s] creating /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map
+[5.787s] copying /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/yahboom_app_save_map.py -> /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map
+[5.787s] copying /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/__init__.py -> /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map
+[5.788s] copying /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build/lib/yahboom_app_save_map/yahboom_app_save_map_client.py -> /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map
+[5.788s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map/yahboom_app_save_map.py to yahboom_app_save_map.cpython-310.pyc
+[5.807s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map/__init__.py to __init__.cpython-310.pyc
+[5.807s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map/yahboom_app_save_map_client.py to yahboom_app_save_map_client.cpython-310.pyc
+[5.808s] running install_data
+[5.808s] creating /home/dwduong74/yahboom_src/install/yahboom_app_save_map/share/ament_index
+[5.808s] creating /home/dwduong74/yahboom_src/install/yahboom_app_save_map/share/ament_index/resource_index
+[5.809s] creating /home/dwduong74/yahboom_src/install/yahboom_app_save_map/share/ament_index/resource_index/packages
+[5.811s] copying resource/yahboom_app_save_map -> /home/dwduong74/yahboom_src/install/yahboom_app_save_map/share/ament_index/resource_index/packages
+[5.811s] copying package.xml -> /home/dwduong74/yahboom_src/install/yahboom_app_save_map/share/yahboom_app_save_map
+[5.822s] copying launch/yahboom_app_save_map.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_app_save_map/share/yahboom_app_save_map
+[5.822s] running install_egg_info
+[5.840s] Copying ../../build/yahboom_app_save_map/yahboom_app_save_map.egg-info to /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages/yahboom_app_save_map-0.0.0-py3.10.egg-info
+[5.841s] running install_scripts
+[6.016s] Installing client script to /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[6.027s] Installing server script to /home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/yahboom_app_save_map
+[6.031s] writing list of installed files to '/home/dwduong74/yahboom_src/build/yahboom_app_save_map/install.log'
+[6.277s] Invoked command in '/home/dwduong74/yahboom_src/src/yahboom_app_save_map' returned '0': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_app_save_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_app_save_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_app_save_map build --build-base /home/dwduong74/yahboom_src/build/yahboom_app_save_map/build install --record /home/dwduong74/yahboom_src/build/yahboom_app_save_map/install.log --single-version-externally-managed install_data

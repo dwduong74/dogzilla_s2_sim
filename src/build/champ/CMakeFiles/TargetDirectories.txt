@@ -1,0 +1,9 @@
+/root/yahboomcar_ws/src/build/champ/CMakeFiles/uninstall.dir
+/root/yahboomcar_ws/src/build/champ/CMakeFiles/champ_uninstall.dir
+/root/yahboomcar_ws/src/build/champ/CMakeFiles/test.dir
+/root/yahboomcar_ws/src/build/champ/CMakeFiles/edit_cache.dir
+/root/yahboomcar_ws/src/build/champ/CMakeFiles/rebuild_cache.dir
+/root/yahboomcar_ws/src/build/champ/CMakeFiles/list_install_components.dir
+/root/yahboomcar_ws/src/build/champ/CMakeFiles/install.dir
+/root/yahboomcar_ws/src/build/champ/CMakeFiles/install/local.dir
+/root/yahboomcar_ws/src/build/champ/CMakeFiles/install/strip.dir

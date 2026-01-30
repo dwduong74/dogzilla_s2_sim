@@ -1,0 +1,26 @@
+[4.460s] Invoking command in '/home/dwduong74/yahboom_src/src/yahboom_mediapipe': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_mediapipe/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_mediapipe build --build-base /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build install --record /home/dwduong74/yahboom_src/build/yahboom_mediapipe/install.log --single-version-externally-managed install_data
+[5.321s] running egg_info
+[5.322s] writing ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/PKG-INFO
+[5.322s] writing dependency_links to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/dependency_links.txt
+[5.323s] writing entry points to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/entry_points.txt
+[5.323s] writing requirements to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/requires.txt
+[5.323s] writing top-level names to ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/top_level.txt
+[5.327s] reading manifest file '../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/SOURCES.txt'
+[5.329s] writing manifest file '../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info/SOURCES.txt'
+[5.329s] running build
+[5.329s] running build_py
+[5.330s] running install
+[5.331s] running install_lib
+[5.333s] running install_data
+[5.334s] running install_egg_info
+[5.336s] removing '/home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe-0.0.0-py3.10.egg-info' (and everything under it)
+[5.337s] Copying ../../build/yahboom_mediapipe/yahboom_mediapipe.egg-info to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages/yahboom_mediapipe-0.0.0-py3.10.egg-info
+[5.338s] running install_scripts
+[5.364s] Installing 01_HandDetector script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[5.364s] Installing 02_PoseDetector script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[5.364s] Installing 03_Holistic script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[5.364s] Installing 04_FaceMesh script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[5.365s] Installing 05_FaceEyeDetection script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[5.365s] Installing test_msg script to /home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/yahboom_mediapipe
+[5.366s] writing list of installed files to '/home/dwduong74/yahboom_src/build/yahboom_mediapipe/install.log'
+[5.401s] Invoked command in '/home/dwduong74/yahboom_src/src/yahboom_mediapipe' returned '0': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_mediapipe/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_mediapipe/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_mediapipe build --build-base /home/dwduong74/yahboom_src/build/yahboom_mediapipe/build install --record /home/dwduong74/yahboom_src/build/yahboom_mediapipe/install.log --single-version-externally-managed install_data

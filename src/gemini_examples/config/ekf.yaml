@@ -1,0 +1,37 @@
+# Config file for robot_localization EKF
+# This is a minimal configuration to fuse only IMU data
+ekf_filter_node:
+  ros__parameters:
+    # GENERAL PARAMETERS
+    frequency: 30.0
+    sensor_timeout: 0.1
+    two_d_mode: false
+    
+    # FRAME PARAMETERS
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+
+    # SENSOR CONFIGURATION (IMU)
+    # We are using the data from the /imu/data_raw_self topic
+    imu0: /imu/data_raw_self
+    
+    # This matrix specifies which IMU measurements to use.
+    # Order is: [X, Y, Z, roll, pitch, yaw, Vx, Vy, Vz, Vroll, Vpitch, Vyaw, Ax, Ay, Az]
+    # We will fuse orientation (roll, pitch, yaw) and angular velocities.
+    # We will NOT fuse linear acceleration as it's often noisy and includes gravity.
+    imu0_config: [false, false, false, # [X, Y, Z] - Do not use position from IMU
+                  true,  true,  true,  # [roll, pitch, yaw] - Use orientation
+                  false, false, false, # [Vx, Vy, Vz] - Do not use linear velocity
+                  true,  true,  true,  # [Vroll, Vpitch, Vyaw] - Use angular velocity
+                  false, false, false] # [Ax, Ay, Az] - Do not use linear acceleration
+
+    imu0_differential: false # IMU provides absolute orientation
+    imu0_relative: false
+    imu0_remove_gravitational_acceleration: true # Recommended
+
+    # --- Other sensors can be added here (e.g., odom1 for wheel odometry) ---
+
+    # PUBLISH PARAMETERS
+    publish_tf: true

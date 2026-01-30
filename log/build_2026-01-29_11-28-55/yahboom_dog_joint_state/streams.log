@@ -1,0 +1,41 @@
+[5.952s] Invoking command in '/home/dwduong74/yahboom_src/src/yahboom_dog_joint_state': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_dog_joint_state build --build-base /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build install --record /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/install.log --single-version-externally-managed install_data
+[7.320s] running egg_info
+[7.320s] creating ../../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info
+[7.321s] writing ../../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/PKG-INFO
+[7.321s] writing dependency_links to ../../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/dependency_links.txt
+[7.321s] writing entry points to ../../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/entry_points.txt
+[7.321s] writing requirements to ../../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/requires.txt
+[7.321s] writing top-level names to ../../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/top_level.txt
+[7.322s] writing manifest file '../../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/SOURCES.txt'
+[7.330s] reading manifest file '../../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/SOURCES.txt'
+[7.330s] writing manifest file '../../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info/SOURCES.txt'
+[7.330s] running build
+[7.331s] running build_py
+[7.331s] creating /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build
+[7.331s] creating /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build/lib
+[7.331s] creating /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state
+[7.331s] copying yahboom_dog_joint_state/yahboomcar_joint_state.py -> /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state
+[7.332s] copying yahboom_dog_joint_state/test.py -> /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state
+[7.332s] copying yahboom_dog_joint_state/__init__.py -> /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state
+[7.332s] running install
+[7.332s] running install_lib
+[7.333s] creating /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state
+[7.333s] copying /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state/yahboomcar_joint_state.py -> /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state
+[7.333s] copying /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state/test.py -> /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state
+[7.334s] copying /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build/lib/yahboom_dog_joint_state/__init__.py -> /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state
+[7.334s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state/yahboomcar_joint_state.py to yahboomcar_joint_state.cpython-310.pyc
+[7.338s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state/test.py to test.cpython-310.pyc
+[7.338s] byte-compiling /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state/__init__.py to __init__.cpython-310.pyc
+[7.339s] running install_data
+[7.340s] creating /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/share/ament_index
+[7.340s] creating /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/share/ament_index/resource_index
+[7.340s] creating /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/share/ament_index/resource_index/packages
+[7.341s] copying resource/yahboom_dog_joint_state -> /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/share/ament_index/resource_index/packages
+[7.341s] copying package.xml -> /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state
+[7.341s] copying launch/yahboom_dog_joint_state.launch.py -> /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/share/yahboom_dog_joint_state
+[7.341s] running install_egg_info
+[7.343s] Copying ../../build/yahboom_dog_joint_state/yahboom_dog_joint_state.egg-info to /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/python3.10/site-packages/yahboom_dog_joint_state-0.0.0-py3.10.egg-info
+[7.345s] running install_scripts
+[7.387s] Installing yahboomcar_joint_state script to /home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/yahboom_dog_joint_state
+[7.388s] writing list of installed files to '/home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/install.log'
+[7.762s] Invoked command in '/home/dwduong74/yahboom_src/src/yahboom_dog_joint_state' returned '0': PYTHONPATH=/home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dwduong74/yahboom_src/install/yahboom_dog_joint_state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_dog_joint_state build --build-base /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/build install --record /home/dwduong74/yahboom_src/build/yahboom_dog_joint_state/install.log --single-version-externally-managed install_data

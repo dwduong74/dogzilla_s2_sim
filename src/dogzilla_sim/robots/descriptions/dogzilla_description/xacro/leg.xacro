@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="leg" params="prefix parent hip_x hip_y hip_z hip_axis_x upper_leg_axis_y lower_leg_axis_y">
+
+    <!-- Hip Link -->
+    <link name="${prefix}_hip_link">
+      <inertial>
+        <origin xyz="-0.013972 0.025089 0.009273" rpy="0 0 0" />
+        <mass value="0.0196" />
+        <inertia ixx="5.892e-06" ixy="-5.67e-07" ixz="-2.628e-07" iyy="3.79e-06" iyz="-1.165e-06" izz="6.888e-06" />
+      </inertial>
+      <visual>
+        <geometry>
+          <mesh filename="model://dogzilla_description/meshes_dog/${prefix}_hip_link.STL" />
+        </geometry>
+        <material name="light_grey" />
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="model://dogzilla_description/meshes_dog/${prefix}_hip_link.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="${prefix}_hip_joint" type="revolute">
+      <parent link="${parent}" />
+      <child link="${prefix}_hip_link" />
+      <origin xyz="${hip_x} ${hip_y} ${hip_z}" rpy="0 0 0" />
+      <axis xyz="${hip_axis_x} 0 0" />
+      <limit effort="25" lower="${-pi}" upper="${pi}" velocity="1.5" />
+    </joint>
+
+    <!-- Upper Leg Link -->
+    <link name="${prefix}_upper_leg_link">
+      <inertial>
+        <origin xyz="-0.00689 -0.01867 -0.02995" rpy="0 0 0" />
+        <mass value="0.01234" />
+        <inertia ixx="5.475e-06" ixy="0" ixz="0" iyy="4.86e-06" iyz="0" izz="1.835e-06" />
+      </inertial>
+      <visual>
+        <geometry>
+          <mesh filename="model://dogzilla_description/meshes_dog/${prefix}_upper_leg_link.STL" />
+        </geometry>
+        <material name="light_grey" />
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="model://dogzilla_description/meshes_dog/${prefix}_upper_leg_link.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="${prefix}_upper_leg_joint" type="revolute">
+      <parent link="${prefix}_hip_link" />
+      <child link="${prefix}_upper_leg_link" />
+      <origin xyz="-0.018325 ${0.049313 * upper_leg_axis_y} 0" rpy="0 0 0" />
+      <axis xyz="0 ${upper_leg_axis_y} 0" />
+      <limit effort="25" lower="${-pi}" upper="${pi}" velocity="1.5" />
+    </joint>
+
+    <!-- Lower Leg Link -->
+    <link name="${prefix}_lower_leg_link">
+      <inertial>
+        <origin xyz="-0.01678 -0.01832 -0.03162" rpy="0 0 0" />
+        <mass value="0.02268" />
+        <inertia ixx="1.411e-05" ixy="0" ixz="-9.819e-07" iyy="1.365e-05" iyz="0" izz="1.393e-06" />
+      </inertial>
+      <visual>
+        <geometry>
+          <mesh filename="model://dogzilla_description/meshes_dog/${prefix}_lower_leg_link.STL" />
+        </geometry>
+        <material name="light_grey" />
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="model://dogzilla_description/meshes_dog/${prefix}_lower_leg_link.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="${prefix}_lower_leg_joint" type="revolute">
+      <parent link="${prefix}_upper_leg_link" />
+      <child link="${prefix}_lower_leg_link" />
+      <origin xyz="0 ${-0.00072 * lower_leg_axis_y} -0.059896" rpy="0 0 0" />
+      <axis xyz="0 ${lower_leg_axis_y} 0" />
+      <limit effort="25" lower="${-pi}" upper="${pi}" velocity="1.5" />
+    </joint>
+
+    <!-- Foot Link -->
+    <joint name="${prefix}_foot_joint" type="fixed">
+        <parent link="${prefix}_lower_leg_link"/>
+        <child link="${prefix}_foot_link"/>
+        <origin xyz="0 0 -0.085" rpy="0 0 0"/>
+    </joint>
+
+    <link name="${prefix}_foot_link">
+        <visual>
+            <geometry>
+                <sphere radius="0.01"/>
+            </geometry>
+            <material name="dark_grey"/>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.02"/>
+            </geometry>
+            <material>
+                <color rgba="0.0 0.0 0.0 0.0"/>
+            </material>
+        </collision>
+        <inertial>
+            <mass value="0.01"/>
+            <inertia ixx="0.000001" ixy="0.0" ixz="0.0" iyy="0.000001" iyz="0.0" izz="0.000001"/>
+        </inertial>
+    </link>
+
+    <gazebo reference="${prefix}_foot_link">
+        <material>Gazebo/DarkGrey</material>
+        <mu1>1.5</mu1>
+        <mu2>1.5</mu2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>1.0</maxVel>
+    </gazebo>
+
+  </xacro:macro>
+
+</robot>

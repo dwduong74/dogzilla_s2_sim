@@ -1,0 +1,133 @@
+[0.038s] Invoking command in '/home/dwduong74/yahboom_src/build/dogzilla_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake /home/dwduong74/yahboom_src/src/dogzilla_sim/robots/descriptions/dogzilla_description -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/dogzilla_description
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.242s] -- The CXX compiler identification is GNU 11.4.0
+[0.265s] -- Detecting C compiler ABI info
+[0.387s] -- Detecting C compiler ABI info - done
+[0.410s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.411s] -- Detecting C compile features
+[0.412s] -- Detecting C compile features - done
+[0.418s] -- Detecting CXX compiler ABI info
+[0.570s] -- Detecting CXX compiler ABI info - done
+[0.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.596s] -- Detecting CXX compile features
+[0.597s] -- Detecting CXX compile features - done
+[0.602s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.917s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.110s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.286s] -- Configuring done
+[1.296s] -- Generating done
+[1.296s] -- Build files have been written to: /home/dwduong74/yahboom_src/build/dogzilla_description
+[1.311s] Invoked command in '/home/dwduong74/yahboom_src/build/dogzilla_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake /home/dwduong74/yahboom_src/src/dogzilla_sim/robots/descriptions/dogzilla_description -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/dogzilla_description
+[1.312s] Invoking command in '/home/dwduong74/yahboom_src/build/dogzilla_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/dogzilla_description -- -j8 -l8
+[1.430s] Invoked command in '/home/dwduong74/yahboom_src/build/dogzilla_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/dogzilla_description -- -j8 -l8
+[1.437s] Invoking command in '/home/dwduong74/yahboom_src/build/dogzilla_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/dogzilla_description
+[1.451s] -- Install configuration: ""
+[1.452s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/config
+[1.452s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/config/_joint_names_dogzilla_description.yaml
+[1.452s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/config/_robot_control.yaml
+[1.452s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/config/ros_control
+[1.452s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/config/ros_control/ros_control.yaml
+[1.452s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/dae
+[1.452s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/dae/thigh_mirror.dae
+[1.460s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/dae/calf_mirror.dae
+[1.464s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/dae/thigh.dae
+[1.476s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/dae/hip.dae
+[1.488s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/dae/calf.dae
+[1.491s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/dae/foot.dae
+[1.494s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/dae/base.dae
+[1.523s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/launch
+[1.523s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/launch/description.launch.py
+[1.524s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog
+[1.524s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/lh_hip_link.STL
+[1.525s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/base_link.STL
+[1.527s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/rf_upper_leg_link.STL
+[1.527s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/lf_upper_leg_link.STL
+[1.528s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/rf_lower_leg_link.STL
+[1.530s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/rf_hip_link.STL
+[1.531s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/rh_lower_leg_link.STL
+[1.532s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/lf_hip_link.STL
+[1.533s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/camera_link.STL
+[1.534s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/rh_upper_leg_link.STL
+[1.535s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/laser_link.STL
+[1.543s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/lh_lower_leg_link.STL
+[1.544s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/lf_lower_leg_link.STL
+[1.545s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO
+[1.546s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/lh_hip_link.STL
+[1.549s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/base_link.STL
+[1.549s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/rf_upper_leg_link.STL
+[1.549s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/lf_upper_leg_link.STL
+[1.550s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/rf_lower_leg_link.STL
+[1.551s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/rf_hip_link.STL
+[1.552s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/rh_lower_leg_link.STL
+[1.553s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/lf_hip_link.STL
+[1.554s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/camera_link.STL
+[1.555s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/rh_upper_leg_link.STL
+[1.556s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/laser_link.STL
+[1.563s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/lh_lower_leg_link.STL
+[1.566s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/lf_lower_leg_link.STL
+[1.567s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/lh_upper_leg_link.STL
+[1.567s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/XGO/rh_hip_link.STL
+[1.568s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/lh_upper_leg_link.STL
+[1.569s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/meshes_dog/rh_hip_link.STL
+[1.570s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf
+[1.570s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/Amended_collision_model.png
+[1.571s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/dogzilla_description.urdf
+[1.572s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history
+[1.572s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230904144240.urdf
+[1.573s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905115215.urdf
+[1.573s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905113755.urdf
+[1.574s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905113059.urdf
+[1.575s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230904182446.urdf
+[1.575s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905113633.urdf
+[1.576s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905115313.urdf
+[1.578s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230904193711.urdf
+[1.578s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905112944.urdf
+[1.579s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905115021.urdf
+[1.580s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905112749.urdf
+[1.580s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230904193710.urdf
+[1.581s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905114819.urdf
+[1.582s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905113000.urdf
+[1.584s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905112047.urdf
+[1.584s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230904193628.urdf
+[1.585s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905114759.urdf
+[1.586s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230904193705.urdf
+[1.587s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905115022.urdf
+[1.587s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905113840.urdf
+[1.588s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230904193653.urdf
+[1.589s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905115040.urdf
+[1.589s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230904193644.urdf
+[1.590s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905112143.urdf
+[1.591s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905112217.urdf
+[1.592s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905113754.urdf
+[1.592s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905113839.urdf
+[1.592s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905115300.urdf
+[1.593s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905112752.urdf
+[1.594s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905112735.urdf
+[1.594s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/.history/dogzilla_description_20230905115226.urdf
+[1.595s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/urdf/Normal_collision_model.png
+[1.596s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/xacro
+[1.597s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/xacro/robot.xacro
+[1.597s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/xacro/velodyne.xacro
+[1.597s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/xacro/transmission.xacro
+[1.598s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/xacro/yahboom_xgo_rviz.xacro
+[1.598s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/xacro/gazebo.xacro
+[1.599s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/xacro/materials.xacro
+[1.599s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/xacro/robot_VLP.xacro
+[1.599s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/xacro/leg.xacro
+[1.600s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/xacro/laser.xacro
+[1.601s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/ament_index/resource_index/package_run_dependencies/dogzilla_description
+[1.601s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/ament_index/resource_index/parent_prefix_path/dogzilla_description
+[1.602s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/environment/ament_prefix_path.sh
+[1.602s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/environment/ament_prefix_path.dsv
+[1.602s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/environment/path.sh
+[1.602s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/environment/path.dsv
+[1.602s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/local_setup.bash
+[1.603s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/local_setup.sh
+[1.603s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/local_setup.zsh
+[1.603s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/local_setup.dsv
+[1.603s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/package.dsv
+[1.603s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/ament_index/resource_index/packages/dogzilla_description
+[1.604s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/cmake/dogzilla_descriptionConfig.cmake
+[1.604s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/cmake/dogzilla_descriptionConfig-version.cmake
+[1.604s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_description/share/dogzilla_description/package.xml
+[2.208s] Invoked command in '/home/dwduong74/yahboom_src/build/dogzilla_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/dogzilla_description

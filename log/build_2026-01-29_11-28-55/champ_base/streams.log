@@ -1,0 +1,107 @@
+[0.016s] Invoking command in '/home/dwduong74/yahboom_src/build/champ_base': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dwduong74/yahboom_src/src/unitree-go2-ros2/champ/champ_base -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/champ_base
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.195s] -- Detecting C compiler ABI info
+[0.284s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.299s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.303s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.443s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.444s] -- Detecting CXX compile features
+[0.445s] -- Detecting CXX compile features - done
+[0.451s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.715s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.914s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.983s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.991s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.004s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.024s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.122s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.127s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.296s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.363s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.436s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.452s] -- Looking for pthread.h
+[1.588s] -- Looking for pthread.h - found
+[1.589s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.743s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.745s] -- Found Threads: TRUE  
+[1.871s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[1.872s] -- Found champ_msgs: 0.1.0 (/home/dwduong74/yahboom_src/install/champ_msgs/share/champ_msgs/cmake)
+[1.945s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.044s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[2.123s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.194s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.493s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.565s] -- Found champ: 0.1.0 (/home/dwduong74/yahboom_src/install/champ/share/champ/cmake)
+[2.844s] -- Configuring done
+[2.993s] -- Generating done
+[3.052s] -- Build files have been written to: /home/dwduong74/yahboom_src/build/champ_base
+[3.075s] Invoked command in '/home/dwduong74/yahboom_src/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dwduong74/yahboom_src/src/unitree-go2-ros2/champ/champ_base -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/champ_base
+[3.080s] Invoking command in '/home/dwduong74/yahboom_src/build/champ_base': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/champ_base -- -j8 -l8
+[3.242s] [  8%] [32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o[0m
+[3.254s] [ 16%] [32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o[0m
+[3.262s] [ 25%] [32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o[0m
+[22.474s] [ 33%] [32m[1mLinking CXX shared library libquadruped_controller.so[0m
+[23.538s] [ 33%] Built target quadruped_controller
+[23.565s] [ 41%] [32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o[0m
+[26.537s] [ 50%] [32m[1mLinking CXX shared library libmessage_relay.so[0m
+[27.981s] [ 50%] Built target message_relay
+[28.006s] [ 58%] [32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o[0m
+[28.414s] [ 66%] [32m[1mLinking CXX executable quadruped_controller_node[0m
+[28.893s] [ 66%] Built target quadruped_controller_node
+[29.296s] [ 75%] [32m[1mLinking CXX shared library libstate_estimation.so[0m
+[30.754s] [ 75%] Built target state_estimation
+[30.778s] [ 83%] [32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o[0m
+[32.323s] [ 91%] [32m[1mLinking CXX executable message_relay_node[0m
+[32.865s] [ 91%] Built target message_relay_node
+[37.767s] [100%] [32m[1mLinking CXX executable state_estimation_node[0m
+[38.291s] [100%] Built target state_estimation_node
+[38.304s] Invoked command in '/home/dwduong74/yahboom_src/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/champ_base -- -j8 -l8
+[38.306s] Invoking command in '/home/dwduong74/yahboom_src/build/champ_base': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/champ_base
+[38.316s] -- Install configuration: ""
+[38.316s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/config
+[38.317s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/config/ekf
+[38.317s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[38.317s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[38.318s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/config/velocity_smoother
+[38.318s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[38.318s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/lib/libquadruped_controller.so
+[38.328s] -- Set runtime path of "/home/dwduong74/yahboom_src/install/champ_base/lib/libquadruped_controller.so" to ""
+[38.329s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/bin/quadruped_controller_node
+[38.329s] -- Set runtime path of "/home/dwduong74/yahboom_src/install/champ_base/bin/quadruped_controller_node" to ""
+[38.329s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/lib/libmessage_relay.so
+[38.343s] -- Set runtime path of "/home/dwduong74/yahboom_src/install/champ_base/lib/libmessage_relay.so" to ""
+[38.343s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/bin/message_relay_node
+[38.343s] -- Set runtime path of "/home/dwduong74/yahboom_src/install/champ_base/bin/message_relay_node" to ""
+[38.343s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/lib/libstate_estimation.so
+[38.360s] -- Set runtime path of "/home/dwduong74/yahboom_src/install/champ_base/lib/libstate_estimation.so" to ""
+[38.360s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/bin/state_estimation_node
+[38.361s] -- Set runtime path of "/home/dwduong74/yahboom_src/install/champ_base/bin/state_estimation_node" to ""
+[38.361s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/lib/champ_base/quadruped_controller_node
+[38.362s] -- Set runtime path of "/home/dwduong74/yahboom_src/install/champ_base/lib/champ_base/quadruped_controller_node" to ""
+[38.362s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/lib/champ_base/message_relay_node
+[38.362s] -- Set runtime path of "/home/dwduong74/yahboom_src/install/champ_base/lib/champ_base/message_relay_node" to ""
+[38.362s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/lib/champ_base/state_estimation_node
+[38.363s] -- Set runtime path of "/home/dwduong74/yahboom_src/install/champ_base/lib/champ_base/state_estimation_node" to ""
+[38.363s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[38.363s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[38.364s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[38.364s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[38.364s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/environment/path.sh
+[38.364s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/environment/path.dsv
+[38.364s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/local_setup.bash
+[38.364s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/local_setup.sh
+[38.365s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/local_setup.zsh
+[38.365s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/local_setup.dsv
+[38.365s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/package.dsv
+[38.365s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[38.365s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.366s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.366s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[38.366s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[38.366s] -- Installing: /home/dwduong74/yahboom_src/install/champ_base/share/champ_base/package.xml
+[38.369s] Invoked command in '/home/dwduong74/yahboom_src/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dwduong74/yahboom_src/install/champ_msgs:/home/dwduong74/yahboom_src/install/champ:/home/dwduong74/LUMI_ws/install/rf2o_laser_odometry:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble LD_LIBRARY_PATH=/home/dwduong74/yahboom_src/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dwduong74/yahboom_src/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/champ_base

@@ -1,0 +1,7 @@
+{
+  "package_name": "image_color_lab",
+  "non_idl_tuples": [
+    "/root/yahboomcar_ws/src/image_color_lab:msg/Lab.msg",
+    "/root/yahboomcar_ws/src/image_color_lab:msg/StringStamped.msg"
+  ]
+}

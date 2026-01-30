@@ -1,0 +1,67 @@
+[0.688s] Invoking command in '/home/dwduong74/yahboom_src/build/dogzilla_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake /home/dwduong74/yahboom_src/src/dogzilla_sim/robots/configs/dogzilla_config -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/dogzilla_config
+[1.932s] -- The C compiler identification is GNU 11.4.0
+[1.932s] -- The CXX compiler identification is GNU 11.4.0
+[1.932s] -- Detecting C compiler ABI info
+[1.932s] -- Detecting C compiler ABI info - done
+[1.933s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.933s] -- Detecting C compile features
+[1.933s] -- Detecting C compile features - done
+[1.933s] -- Detecting CXX compiler ABI info
+[1.933s] -- Detecting CXX compiler ABI info - done
+[1.933s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.933s] -- Detecting CXX compile features
+[1.933s] -- Detecting CXX compile features - done
+[1.933s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.934s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.014s] -- Configuring done
+[2.014s] -- Generating done
+[2.017s] -- Build files have been written to: /home/dwduong74/yahboom_src/build/dogzilla_config
+[2.042s] Invoked command in '/home/dwduong74/yahboom_src/build/dogzilla_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake /home/dwduong74/yahboom_src/src/dogzilla_sim/robots/configs/dogzilla_config -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/dogzilla_config
+[2.042s] Invoking command in '/home/dwduong74/yahboom_src/build/dogzilla_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/dogzilla_config -- -j8 -l8
+[2.131s] Invoked command in '/home/dwduong74/yahboom_src/build/dogzilla_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/dogzilla_config -- -j8 -l8
+[2.134s] Invoking command in '/home/dwduong74/yahboom_src/build/dogzilla_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/dogzilla_config
+[2.150s] -- Install configuration: ""
+[2.150s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/launch
+[2.151s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/launch/gazebo.launch.py
+[2.151s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/launch/gazebo_velodyne.launch.py
+[2.151s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/launch/bringup.launch.py
+[2.151s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/launch/navigate.launch.py
+[2.151s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/launch/slam.launch.py
+[2.151s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config
+[2.152s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/gait
+[2.152s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/gait/gait.yaml
+[2.152s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/joints
+[2.152s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/joints/joints.yaml
+[2.152s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/links
+[2.153s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/links/links.yaml
+[2.153s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/autonomy
+[2.154s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/autonomy/navigation.yaml
+[2.154s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/autonomy/slam.yaml
+[2.154s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/ros_control
+[2.155s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/config/ros_control/ros_control.yaml
+[2.155s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/maps
+[2.155s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/maps/map.pgm
+[2.161s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/maps/playground.pgm
+[2.164s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/maps/map.yaml
+[2.164s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/maps/playground.yaml
+[2.165s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/worlds
+[2.165s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/worlds/default.sdf
+[2.165s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/worlds/default.world
+[2.165s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/worlds/playground.world
+[2.169s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/worlds/outdoor.world
+[2.169s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/ament_index/resource_index/package_run_dependencies/dogzilla_config
+[2.169s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/ament_index/resource_index/parent_prefix_path/dogzilla_config
+[2.170s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/environment/ament_prefix_path.sh
+[2.170s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/environment/ament_prefix_path.dsv
+[2.170s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/environment/path.sh
+[2.170s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/environment/path.dsv
+[2.170s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/local_setup.bash
+[2.170s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/local_setup.sh
+[2.171s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/local_setup.zsh
+[2.171s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/local_setup.dsv
+[2.171s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/package.dsv
+[2.171s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/ament_index/resource_index/packages/dogzilla_config
+[2.171s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/cmake/dogzilla_configConfig.cmake
+[2.172s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/cmake/dogzilla_configConfig-version.cmake
+[2.172s] -- Installing: /home/dwduong74/yahboom_src/install/dogzilla_config/share/dogzilla_config/package.xml
+[2.225s] Invoked command in '/home/dwduong74/yahboom_src/build/dogzilla_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/dogzilla_config

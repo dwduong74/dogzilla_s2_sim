@@ -1,0 +1,42 @@
+[0.690s] Invoking command in '/home/dwduong74/yahboom_src/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake /home/dwduong74/yahboom_src/src/unitree-go2-ros2/champ_teleop -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/champ_teleop
+[0.798s] -- The C compiler identification is GNU 11.4.0
+[0.927s] -- The CXX compiler identification is GNU 11.4.0
+[0.942s] -- Detecting C compiler ABI info
+[1.064s] -- Detecting C compiler ABI info - done
+[1.086s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.087s] -- Detecting C compile features
+[1.087s] -- Detecting C compile features - done
+[1.094s] -- Detecting CXX compiler ABI info
+[1.246s] -- Detecting CXX compiler ABI info - done
+[1.269s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.270s] -- Detecting CXX compile features
+[1.272s] -- Detecting CXX compile features - done
+[1.278s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.601s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.983s] -- Configuring done
+[1.988s] -- Generating done
+[1.989s] -- Build files have been written to: /home/dwduong74/yahboom_src/build/champ_teleop
+[2.001s] Invoked command in '/home/dwduong74/yahboom_src/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake /home/dwduong74/yahboom_src/src/unitree-go2-ros2/champ_teleop -DCMAKE_INSTALL_PREFIX=/home/dwduong74/yahboom_src/install/champ_teleop
+[2.010s] Invoking command in '/home/dwduong74/yahboom_src/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/champ_teleop -- -j8 -l8
+[2.112s] Invoked command in '/home/dwduong74/yahboom_src/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --build /home/dwduong74/yahboom_src/build/champ_teleop -- -j8 -l8
+[2.113s] Invoking command in '/home/dwduong74/yahboom_src/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/champ_teleop
+[2.125s] -- Install configuration: ""
+[2.125s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/launch
+[2.126s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/launch/teleop.launch.py
+[2.126s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/lib/champ_teleop/champ_teleop.py
+[2.126s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/ament_index/resource_index/package_run_dependencies/champ_teleop
+[2.128s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/ament_index/resource_index/parent_prefix_path/champ_teleop
+[2.129s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.sh
+[2.129s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.dsv
+[2.129s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/environment/path.sh
+[2.129s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/environment/path.dsv
+[2.129s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/local_setup.bash
+[2.129s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/local_setup.sh
+[2.129s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/local_setup.zsh
+[2.129s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/local_setup.dsv
+[2.130s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/package.dsv
+[2.130s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/ament_index/resource_index/packages/champ_teleop
+[2.131s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig.cmake
+[2.132s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig-version.cmake
+[2.132s] -- Installing: /home/dwduong74/yahboom_src/install/champ_teleop/share/champ_teleop/package.xml
+[2.154s] Invoked command in '/home/dwduong74/yahboom_src/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dwduong74/LUMI_ws/install/custom_explorer:/opt/ros/humble /usr/bin/cmake --install /home/dwduong74/yahboom_src/build/champ_teleop
